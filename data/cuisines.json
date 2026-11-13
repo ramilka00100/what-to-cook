@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "generatedAt": "2026-11-12T20:14:57.316Z",
+    "cuisines": 8,
+    "dishes": 500,
+    "imageSize": "150x150",
+    "imagePathBase": "data/"
+  },
+  "cuisines": [
+    {
+      "id": "russian",
+      "title": "Российская кухня",
+      "titleEn": "Russian cuisine",
+      "region": "Восточная Европа",
+      "description": "Сытная домашняя кухня: щи и борщ, пельмени, соленья, блины и медовик.",
+      "count": 69
+    },
+    {
+      "id": "european",
+      "title": "Европейская кухня",
+      "titleEn": "European cuisine",
+      "region": "Западная и Южная Европа",
+      "description": "Паста и пицца, французские супы и десерты, испанская паэлья и греческие закуски.",
+      "count": 69
+    },
+    {
+      "id": "italian",
+      "title": "Итальянская кухня",
+      "titleEn": "Italian cuisine",
+      "region": "Италия",
+      "description": "Паста и ризотто, пицца и антипасти, томаты, оливковое масло и десерты.",
+      "count": 55
+    },
+    {
+      "id": "mediterranean",
+      "title": "Средиземноморская кухня",
+      "titleEn": "Mediterranean cuisine",
+      "region": "Греция, Испания, Португалия",
+      "description": "Овощи, оливковое масло, рыба и морепродукты, сыры и вино.",
+      "count": 55
+    },
+    {
+      "id": "eastern",
+      "title": "Восточная кухня",
+      "titleEn": "Eastern cuisine",
+      "region": "Ближний Восток и Центральная Азия",
+      "description": "Плов и лагман, шашлыки и кебабы, хумус, фалафель и восточные сладости.",
+      "count": 69
+    },
+    {
+      "id": "asian",
+      "title": "Азиатская кухня",
+      "titleEn": "Asian cuisine",
+      "region": "Восточная, Юго-Восточная и Южная Азия",
+      "description": "Китайская, японская, корейская, тайская, вьетнамская и индийская кухни.",
+      "count": 69
+    },
+    {
+      "id": "caucasian",
+      "title": "Кавказская кухня",
+      "titleEn": "Caucasian cuisine",
+      "region": "Кавказ",
+      "description": "Хинкали и хачапури, сациви, лобио и мясо на углях.",
+      "count": 69
+    },
+    {
+      "id": "american",
+      "title": "Американская кухня",
+      "titleEn": "American cuisine",
+      "region": "США",
+      "description": "Бургеры и BBQ, клам-чаудер, кукурузный хлеб, панкейки и десерты.",
+      "count": 45
+    }
+  ]
+}

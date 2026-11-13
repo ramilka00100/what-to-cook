@@ -1,0 +1,4067 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Кухни мира — превью датасета</title>
+<style>
+  :root { color-scheme: light dark; --line: #d8d8d8; --muted: #6b6b6b; }
+  body { font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; margin: 32px auto; max-width: 1180px; padding: 0 16px; }
+  h1 { margin: 0 0 4px; font-size: 22px; }
+  h2 { margin: 40px 0 12px; font-size: 18px; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+  .count { color: var(--muted); font-weight: 400; font-size: 13px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 16px; }
+  .card { margin: 0; display: flex; flex-direction: column; gap: 6px; }
+  .card img { width: 150px; height: 150px; border-radius: 10px; object-fit: cover; display: block; background: #eee; }
+  .card[data-placeholder] img { outline: 2px dashed #d9534f; outline-offset: -2px; }
+  figcaption b { display: block; font-size: 13px; }
+  .meta { display: block; color: var(--muted); font-size: 12px; }
+  .src { font-size: 11px; color: var(--muted); }
+  .note { color: var(--muted); font-size: 13px; margin-top: 6px; }
+</style>
+</head>
+<body>
+<h1>Кухни мира</h1>
+<p class="note">500 блюд, 5 кухонь. Фото 150×150 с Викисклада; пунктирная рамка — заглушка без фото.
+Атрибуция обязательна: лицензии в <code>data/credits.json</code>.</p>
+<section>
+  <h2>Российская кухня <span class="count">69 блюд</span></h2>
+  <div class="grid">
+<figure class="card">
+  <img src="images/russian/borscht.jpg" width="150" height="150" loading="lazy" alt="Борщ">
+  <figcaption>
+    <b>Борщ</b>
+    <span class="meta">суп · 150 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Borscht_served.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/shchi.jpg" width="150" height="150" loading="lazy" alt="Щи">
+  <figcaption>
+    <b>Щи</b>
+    <span class="meta">суп · 120 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Schi.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/solyanka.jpg" width="150" height="150" loading="lazy" alt="Солянка">
+  <figcaption>
+    <b>Солянка</b>
+    <span class="meta">суп · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Soljanka_food_05.jpg" target="_blank" rel="noopener">CC BY 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/ukha.jpg" width="150" height="150" loading="lazy" alt="Уха">
+  <figcaption>
+    <b>Уха</b>
+    <span class="meta">суп · 120 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Uha_013.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/rassolnik.jpg" width="150" height="150" loading="lazy" alt="Рассольник">
+  <figcaption>
+    <b>Рассольник</b>
+    <span class="meta">суп · 140 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D0%A0%D0%B0%D1%81%D1%81%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA_%D0%BF%D0%BE-%D0%BB%D0%B5%D0%BD%D0%B8%D0%BD%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B8.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/okroshka.jpg" width="150" height="150" loading="lazy" alt="Окрошка">
+  <figcaption>
+    <b>Окрошка</b>
+    <span class="meta">суп · 110 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D0%9E%D0%BA%D1%80%D0%BE%D1%88%D0%BA%D0%B0_Okroshka_05.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/botvinya.jpg" width="150" height="150" loading="lazy" alt="Ботвинья">
+  <figcaption>
+    <b>Ботвинья</b>
+    <span class="meta">суп · 100 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Zupa_botwinka.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/mushroom-soup.jpg" width="150" height="150" loading="lazy" alt="Грибной суп">
+  <figcaption>
+    <b>Грибной суп</b>
+    <span class="meta">суп · 95 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Cream_mushroom_soup_3.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/pea-soup.jpg" width="150" height="150" loading="lazy" alt="Гороховый суп">
+  <figcaption>
+    <b>Гороховый суп</b>
+    <span class="meta">суп · 130 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Hernekeitto.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/olivier-salad.jpg" width="150" height="150" loading="lazy" alt="Оливье">
+  <figcaption>
+    <b>Оливье</b>
+    <span class="meta">салат · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B0%D0%BB%D0%B0%D1%82_%D0%9E%D0%BB%D0%B8%D0%B2%D1%8C%D0%B5_03.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/vinegret.jpg" width="150" height="150" loading="lazy" alt="Винегрет">
+  <figcaption>
+    <b>Винегрет</b>
+    <span class="meta">салат · 120 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Vinegret_cleaned.jpg" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/dressed-herring.jpg" width="150" height="150" loading="lazy" alt="Селёдка под шубой">
+  <figcaption>
+    <b>Селёдка под шубой</b>
+    <span class="meta">салат · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Selidi_pod_shuboi.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/mimosa-salad.jpg" width="150" height="150" loading="lazy" alt="Мимоза">
+  <figcaption>
+    <b>Мимоза</b>
+    <span class="meta">салат · 230 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Mimoza_salat_e-citizen.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/crab-salad.jpg" width="150" height="150" loading="lazy" alt="Крабовый салат">
+  <figcaption>
+    <b>Крабовый салат</b>
+    <span class="meta">салат · 200 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Mixed_Green_Salad_(15977106804).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/stolichny-salad.jpg" width="150" height="150" loading="lazy" alt="Столичный салат">
+  <figcaption>
+    <b>Столичный салат</b>
+    <span class="meta">салат · 260 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Russian_Olivier_salad_sl.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/beet-salad.jpg" width="150" height="150" loading="lazy" alt="Свекольный салат">
+  <figcaption>
+    <b>Свекольный салат</b>
+    <span class="meta">салат · 110 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Salad_platter.jpg" target="_blank" rel="noopener">GFDL 1.2</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/pickled-cucumber.jpg" width="150" height="150" loading="lazy" alt="Солёные огурцы">
+  <figcaption>
+    <b>Солёные огурцы</b>
+    <span class="meta">закуска · 20 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pickle.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/sauerkraut.jpg" width="150" height="150" loading="lazy" alt="Квашеная капуста">
+  <figcaption>
+    <b>Квашеная капуста</b>
+    <span class="meta">закуска · 30 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Belarusian-Russian_Sauerkraut-1.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/herring.jpg" width="150" height="150" loading="lazy" alt="Сельдь солёная">
+  <figcaption>
+    <b>Сельдь солёная</b>
+    <span class="meta">закуска · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Clupea_harengus_Gervais.flipped.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/red-caviar.jpg" width="150" height="150" loading="lazy" alt="Красная икра">
+  <figcaption>
+    <b>Красная икра</b>
+    <span class="meta">закуска · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ikura_temaki_zushi_by_Adonis_Chen_in_Taipei.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/aspic.jpg" width="150" height="150" loading="lazy" alt="Холодец">
+  <figcaption>
+    <b>Холодец</b>
+    <span class="meta">закуска · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Aspic-with-eggs.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/salo.jpg" width="150" height="150" loading="lazy" alt="Сало">
+  <figcaption>
+    <b>Сало</b>
+    <span class="meta">закуска · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sa%C5%82o.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/pickled-mushrooms.jpg" width="150" height="150" loading="lazy" alt="Солёные грибы">
+  <figcaption>
+    <b>Солёные грибы</b>
+    <span class="meta">закуска · 25 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:02021_0693_(2)_Pickled_food_of_Poland,_Pickled_mushrooms.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/pate.jpg" width="150" height="150" loading="lazy" alt="Паштет">
+  <figcaption>
+    <b>Паштет</b>
+    <span class="meta">закуска · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pates_p1150435.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/smoked-fish.jpg" width="150" height="150" loading="lazy" alt="Копчёная рыба">
+  <figcaption>
+    <b>Копчёная рыба</b>
+    <span class="meta">закуска · 200 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Arbroath_Smokies_-_geograph.org.uk_-_481678.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/beef-stroganoff.jpg" width="150" height="150" loading="lazy" alt="Бефстроганов">
+  <figcaption>
+    <b>Бефстроганов</b>
+    <span class="meta">горячее · 320 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Moscow_(8351271825).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/pelmeni.jpg" width="150" height="150" loading="lazy" alt="Пельмени">
+  <figcaption>
+    <b>Пельмени</b>
+    <span class="meta">горячее · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pelmeni_Russian.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/varenyky.jpg" width="150" height="150" loading="lazy" alt="Вареники">
+  <figcaption>
+    <b>Вареники</b>
+    <span class="meta">горячее · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Varenyky_with_Potatoes_-_2026_-03.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/chicken-kiev.jpg" width="150" height="150" loading="lazy" alt="Котлеты по-киевски">
+  <figcaption>
+    <b>Котлеты по-киевски</b>
+    <span class="meta">горячее · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Chicken_Kiev_-_Ukrainian_East_Village_restaurant.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/pozharsky-cutlet.jpg" width="150" height="150" loading="lazy" alt="Пожарские котлеты">
+  <figcaption>
+    <b>Пожарские котлеты</b>
+    <span class="meta">горячее · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pozharskaya_kotleta.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/cabbage-roll.jpg" width="150" height="150" loading="lazy" alt="Голубцы">
+  <figcaption>
+    <b>Голубцы</b>
+    <span class="meta">горячее · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:T%C3%B6lt%C3%B6tt_k%C3%A1poszta,_2.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/zharkoye.jpg" width="150" height="150" loading="lazy" alt="Жаркое">
+  <figcaption>
+    <b>Жаркое</b>
+    <span class="meta">горячее · 340 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Schweinsbraten-1.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/cutlet.jpg" width="150" height="150" loading="lazy" alt="Котлеты домашние">
+  <figcaption>
+    <b>Котлеты домашние</b>
+    <span class="meta">горячее · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kotlet_(3119520131).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/meatball.jpg" width="150" height="150" loading="lazy" alt="Тефтели">
+  <figcaption>
+    <b>Тефтели</b>
+    <span class="meta">горячее · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Soup_with_meatballs-01.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/zrazy.jpg" width="150" height="150" loading="lazy" alt="Зразы">
+  <figcaption>
+    <b>Зразы</b>
+    <span class="meta">горячее · 310 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Zrazy1.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/stuffed-peppers.jpg" width="150" height="150" loading="lazy" alt="Фаршированный перец">
+  <figcaption>
+    <b>Фаршированный перец</b>
+    <span class="meta">горячее · 260 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Quinoa_stuffed_peppers.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/draniki.jpg" width="150" height="150" loading="lazy" alt="Драники">
+  <figcaption>
+    <b>Драники</b>
+    <span class="meta">горячее · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Latkas.jpg" target="_blank" rel="noopener">GFDL 1.2</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/goulash.jpg" width="150" height="150" loading="lazy" alt="Гуляш">
+  <figcaption>
+    <b>Гуляш</b>
+    <span class="meta">горячее · 330 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gulyas080.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/cheburek.jpg" width="150" height="150" loading="lazy" alt="Чебурек">
+  <figcaption>
+    <b>Чебурек</b>
+    <span class="meta">горячее · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ayran%2B%C3%87ib%C3%B6rek.jpg" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/navy-pasta.jpg" width="150" height="150" loading="lazy" alt="Макароны по-флотски">
+  <figcaption>
+    <b>Макароны по-флотски</b>
+    <span class="meta">горячее · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Navy-style_2020-01-30_%D0%9C%D0%B0%D0%BA%D0%B0%D1%80%D0%BE%D0%BD%D1%8B_%C2%AB%D0%BF%D0%BE-%D1%84%D0%BB%D0%BE%D1%82%D1%81%D0%BA%D0%B8%C2%BB.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/buckwheat.jpg" width="150" height="150" loading="lazy" alt="Гречневая каша">
+  <figcaption>
+    <b>Гречневая каша</b>
+    <span class="meta">горячее · 200 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Japanese_Buckwheat_Flower.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/mashed-potato.jpg" width="150" height="150" loading="lazy" alt="Картофельное пюре">
+  <figcaption>
+    <b>Картофельное пюре</b>
+    <span class="meta">горячее · 200 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sous_vide_mashed_potatoes.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/fish-cakes.jpg" width="150" height="150" loading="lazy" alt="Рыбные котлеты">
+  <figcaption>
+    <b>Рыбные котлеты</b>
+    <span class="meta">горячее · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Fish_cakes_food_dinner.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/pearl-barley.jpg" width="150" height="150" loading="lazy" alt="Перловая каша с грибами">
+  <figcaption>
+    <b>Перловая каша с грибами</b>
+    <span class="meta">горячее · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Barley_grains.jpg" target="_blank" rel="noopener">CC BY-SA 2.0 kr</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/schnitzel.jpg" width="150" height="150" loading="lazy" alt="Шницель">
+  <figcaption>
+    <b>Шницель</b>
+    <span class="meta">горячее · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Breitenlesau_Krug_Br%C3%A4u_Schnitzel.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/blini.jpg" width="150" height="150" loading="lazy" alt="Блины">
+  <figcaption>
+    <b>Блины</b>
+    <span class="meta">выпечка · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:50_%D0%B1%D0%BB%D1%96%D0%BD%D0%BA%D0%BE%D1%9E_%D0%BD%D0%B0_%D1%82%D0%B0%D0%BB%D0%B5%D1%80%D1%86%D1%8B_240_%D0%BC%D0%BC.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/oladyi.jpg" width="150" height="150" loading="lazy" alt="Оладьи">
+  <figcaption>
+    <b>Оладьи</b>
+    <span class="meta">выпечка · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D0%9E%D0%BB%D0%B0%D0%B4%D0%BA%D0%B8%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D1%96.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/syrniki.jpg" width="150" height="150" loading="lazy" alt="Сырники">
+  <figcaption>
+    <b>Сырники</b>
+    <span class="meta">выпечка · 260 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Syrniki6.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/pirozhki.jpg" width="150" height="150" loading="lazy" alt="Пирожки">
+  <figcaption>
+    <b>Пирожки</b>
+    <span class="meta">выпечка · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Piroshki.JPG" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/vatrushka.jpg" width="150" height="150" loading="lazy" alt="Ватрушка">
+  <figcaption>
+    <b>Ватрушка</b>
+    <span class="meta">выпечка · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Vatrushka.jpeg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/kalach.jpg" width="150" height="150" loading="lazy" alt="Калач">
+  <figcaption>
+    <b>Калач</b>
+    <span class="meta">выпечка · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Lob_NARkult_09.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/kulebyaka.jpg" width="150" height="150" loading="lazy" alt="Кулебяка">
+  <figcaption>
+    <b>Кулебяка</b>
+    <span class="meta">выпечка · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Koulibiak_au_saumon.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/rasstegai.jpg" width="150" height="150" loading="lazy" alt="Расстегай">
+  <figcaption>
+    <b>Расстегай</b>
+    <span class="meta">выпечка · 320 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Rasstegai_s_gorbushei.jpg" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/kurnik.jpg" width="150" height="150" loading="lazy" alt="Курник">
+  <figcaption>
+    <b>Курник</b>
+    <span class="meta">выпечка · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:K%C3%B3rnik.jpg" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/belyash.jpg" width="150" height="150" loading="lazy" alt="Беляш">
+  <figcaption>
+    <b>Беляш</b>
+    <span class="meta">выпечка · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Belyashi_2.jpg" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/medovik.jpg" width="150" height="150" loading="lazy" alt="Медовик">
+  <figcaption>
+    <b>Медовик</b>
+    <span class="meta">десерт · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Medovik.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/napoleon.jpg" width="150" height="150" loading="lazy" alt="Наполеон">
+  <figcaption>
+    <b>Наполеон</b>
+    <span class="meta">десерт · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Mille-feuille_fran%C3%A7ais_1.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/pryanik.jpg" width="150" height="150" loading="lazy" alt="Пряники">
+  <figcaption>
+    <b>Пряники</b>
+    <span class="meta">десерт · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Prjaniki.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/pastila.jpg" width="150" height="150" loading="lazy" alt="Пастила">
+  <figcaption>
+    <b>Пастила</b>
+    <span class="meta">десерт · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kolomna_Pastila.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/zefir.jpg" width="150" height="150" loading="lazy" alt="Зефир">
+  <figcaption>
+    <b>Зефир</b>
+    <span class="meta">десерт · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D0%97%D0%B5%D1%84%D0%B8%D1%80_%D0%B1%D0%B5%D0%BB%D0%BE-%D1%80%D0%BE%D0%B7%D0%BE%D0%B2%D1%8B%D0%B9.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/kissel.jpg" width="150" height="150" loading="lazy" alt="Кисель">
+  <figcaption>
+    <b>Кисель</b>
+    <span class="meta">десерт · 120 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Red_Currant_Kissel.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/varenye.jpg" width="150" height="150" loading="lazy" alt="Варенье">
+  <figcaption>
+    <b>Варенье</b>
+    <span class="meta">десерт · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Fruits_jam_variants.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/sushki.jpg" width="150" height="150" loading="lazy" alt="Сушки">
+  <figcaption>
+    <b>Сушки</b>
+    <span class="meta">десерт · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sooshki.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/baked-apples.jpg" width="150" height="150" loading="lazy" alt="Печёные яблоки">
+  <figcaption>
+    <b>Печёные яблоки</b>
+    <span class="meta">десерт · 120 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Hot_and_Sweet_Baked_Apples_-_50495578482.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/kvass.jpg" width="150" height="150" loading="lazy" alt="Квас">
+  <figcaption>
+    <b>Квас</b>
+    <span class="meta">напиток · 60 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Mint_bread_kvas.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/mors.jpg" width="150" height="150" loading="lazy" alt="Морс">
+  <figcaption>
+    <b>Морс</b>
+    <span class="meta">напиток · 45 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Mors_(ru._%D0%9C%D0%BE%D1%80%D1%81_-_%D0%BF%D1%80%D0%BE%D1%85%D0%BB%D0%B0%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9_%D0%BD%D0%B5%D0%B3%D0%B0%D0%B7%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BD%D0%B0%D0%BF%D0%B8%D1%82%D0%BE%D0%BA).JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/sbiten.jpg" width="150" height="150" loading="lazy" alt="Сбитень">
+  <figcaption>
+    <b>Сбитень</b>
+    <span class="meta">напиток · 80 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D0%A1%D0%B1%D0%B8%D1%82%D0%B5%D0%BD%D1%8C_(%D0%B7%D0%B1%D0%B8%D1%82%D0%B5%D0%BD%D1%8C)_%D1%80%D0%B6%D0%B0%D0%BD%D0%BE%D0%B9.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/kompot.jpg" width="150" height="150" loading="lazy" alt="Компот">
+  <figcaption>
+    <b>Компот</b>
+    <span class="meta">напиток · 70 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Peach_kompot.JPG" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/russian/ivan-chai.jpg" width="150" height="150" loading="lazy" alt="Иван-чай">
+  <figcaption>
+    <b>Иван-чай</b>
+    <span class="meta">напиток · 20 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Mendenhall_Fireweed_721.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+  </div>
+</section>
+<section>
+  <h2>Европейская кухня <span class="count">69 блюд</span></h2>
+  <div class="grid">
+<figure class="card">
+  <img src="images/european/french-onion-soup.jpg" width="150" height="150" loading="lazy" alt="Французский луковый суп">
+  <figcaption>
+    <b>Французский луковый суп</b>
+    <span class="meta">суп · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Soupe_%C3%A0_l%27oignon.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/bouillabaisse.jpg" width="150" height="150" loading="lazy" alt="Буйабес">
+  <figcaption>
+    <b>Буйабес</b>
+    <span class="meta">суп · 320 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bullabessa.jpg" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/kartoffelsuppe.jpg" width="150" height="150" loading="lazy" alt="Картофельный суп">
+  <figcaption>
+    <b>Картофельный суп</b>
+    <span class="meta">суп · 260 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kartoffelsuppe_mit_Bockwurst-8636.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/salade-nicoise.jpg" width="150" height="150" loading="lazy" alt="Салат нисуаз">
+  <figcaption>
+    <b>Салат нисуаз</b>
+    <span class="meta">салат · 320 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Nizza-Salat_an_der_F_Mittelmeerk%C3%BCste.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/german-potato-salad.jpg" width="150" height="150" loading="lazy" alt="Немецкий картофельный салат">
+  <figcaption>
+    <b>Немецкий картофельный салат</b>
+    <span class="meta">салат · 290 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Potato_salad_(1).jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/salade-lyonnaise.jpg" width="150" height="150" loading="lazy" alt="Лионский салат">
+  <figcaption>
+    <b>Лионский салат</b>
+    <span class="meta">салат · 310 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Salade_lyonnaise.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/escargots-de-bourgogne.jpg" width="150" height="150" loading="lazy" alt="Улитки по-бургундски">
+  <figcaption>
+    <b>Улитки по-бургундски</b>
+    <span class="meta">закуска · 230 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Escargot_de_Bourgogne_017.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/scotch-egg.jpg" width="150" height="150" loading="lazy" alt="Шотландское яйцо">
+  <figcaption>
+    <b>Шотландское яйцо</b>
+    <span class="meta">закуска · 320 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:One_scotch_egg_(No_jar_of_Marmite).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/gravlax.jpg" width="150" height="150" loading="lazy" alt="Гравлакс">
+  <figcaption>
+    <b>Гравлакс</b>
+    <span class="meta">закуска · 210 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Laxr%C3%A4tter.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/coq-au-vin.jpg" width="150" height="150" loading="lazy" alt="Кок-о-вен">
+  <figcaption>
+    <b>Кок-о-вен</b>
+    <span class="meta">горячее · 520 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gourmet_coq_au_vin.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/beef-bourguignon.jpg" width="150" height="150" loading="lazy" alt="Бёф бургиньон">
+  <figcaption>
+    <b>Бёф бургиньон</b>
+    <span class="meta">горячее · 580 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Beef_bourguignon_NYT.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/ratatouille.jpg" width="150" height="150" loading="lazy" alt="Рататуй">
+  <figcaption>
+    <b>Рататуй</b>
+    <span class="meta">горячее · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ratatouille_home_cooked.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/duck-confit.jpg" width="150" height="150" loading="lazy" alt="Утиное конфи">
+  <figcaption>
+    <b>Утиное конфи</b>
+    <span class="meta">горячее · 470 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Confitdecanard.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/wiener-schnitzel.jpg" width="150" height="150" loading="lazy" alt="Венский шницель">
+  <figcaption>
+    <b>Венский шницель</b>
+    <span class="meta">горячее · 520 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Wiener-Schnitzel02.jpg" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/bratwurst.jpg" width="150" height="150" loading="lazy" alt="Братвурст">
+  <figcaption>
+    <b>Братвурст</b>
+    <span class="meta">горячее · 430 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:German_Bratw%C3%BCrste.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/sauerbraten.jpg" width="150" height="150" loading="lazy" alt="Зауэрбратен">
+  <figcaption>
+    <b>Зауэрбратен</b>
+    <span class="meta">горячее · 500 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Heldrunger_Sauerbraten_2.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/fish-and-chips.jpg" width="150" height="150" loading="lazy" alt="Фиш-энд-чипс">
+  <figcaption>
+    <b>Фиш-энд-чипс</b>
+    <span class="meta">горячее · 700 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Fish_and_chips_blackpool.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/shepherds-pie.jpg" width="150" height="150" loading="lazy" alt="Пастуший пирог">
+  <figcaption>
+    <b>Пастуший пирог</b>
+    <span class="meta">горячее · 560 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Homerton_College_-_Shepherd%27s_pie_(cropped).jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/swedish-meatballs.jpg" width="150" height="150" loading="lazy" alt="Шведские фрикадельки">
+  <figcaption>
+    <b>Шведские фрикадельки</b>
+    <span class="meta">горячее · 520 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Soup_with_meatballs-01.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/moules-frites.jpg" width="150" height="150" loading="lazy" alt="Мидии с картофелем">
+  <figcaption>
+    <b>Мидии с картофелем</b>
+    <span class="meta">горячее · 430 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Moules-frites_at_Chez_Leon_in_Brussels.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/quiche-lorraine.jpg" width="150" height="150" loading="lazy" alt="Киш лорен">
+  <figcaption>
+    <b>Киш лорен</b>
+    <span class="meta">выпечка · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Quiche_de_Lorraine.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/croissant.jpg" width="150" height="150" loading="lazy" alt="Круассан">
+  <figcaption>
+    <b>Круассан</b>
+    <span class="meta">выпечка · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Croissant-Petr_Kratochvil.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/baguette.jpg" width="150" height="150" loading="lazy" alt="Багет">
+  <figcaption>
+    <b>Багет</b>
+    <span class="meta">выпечка · 270 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Baguettes,_Paris,_France_-_panoramio.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/pretzel.jpg" width="150" height="150" loading="lazy" alt="Брецель">
+  <figcaption>
+    <b>Брецель</b>
+    <span class="meta">выпечка · 290 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:BrezelnSalz02_(cropped).JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/cornish-pasty.jpg" width="150" height="150" loading="lazy" alt="Корнуоллский пирог">
+  <figcaption>
+    <b>Корнуоллский пирог</b>
+    <span class="meta">выпечка · 480 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Cornish_Pasty_(cropped).jpeg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/scone.jpg" width="150" height="150" loading="lazy" alt="Сконы">
+  <figcaption>
+    <b>Сконы</b>
+    <span class="meta">выпечка · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Scone_varieties.jpg" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/danish-pastry.jpg" width="150" height="150" loading="lazy" alt="Датская выпечка">
+  <figcaption>
+    <b>Датская выпечка</b>
+    <span class="meta">выпечка · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Glazed_apple_Danish.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/creme-brulee.jpg" width="150" height="150" loading="lazy" alt="Крем-брюле">
+  <figcaption>
+    <b>Крем-брюле</b>
+    <span class="meta">десерт · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:2014_0531_Cr%C3%A8me_br%C3%BBl%C3%A9e_Doi_Mae_Salong_(cropped).jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/tarte-tatin.jpg" width="150" height="150" loading="lazy" alt="Тарт татен">
+  <figcaption>
+    <b>Тарт татен</b>
+    <span class="meta">десерт · 390 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Franse_tarte_tatin.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/sachertorte.jpg" width="150" height="150" loading="lazy" alt="Захерторте">
+  <figcaption>
+    <b>Захерторте</b>
+    <span class="meta">десерт · 440 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sachertorte_DSC03027.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/apple-strudel.jpg" width="150" height="150" loading="lazy" alt="Штрудель">
+  <figcaption>
+    <b>Штрудель</b>
+    <span class="meta">десерт · 330 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Strudel.jpg" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/gluhwein.jpg" width="150" height="150" loading="lazy" alt="Глинтвейн">
+  <figcaption>
+    <b>Глинтвейн</b>
+    <span class="meta">напиток · 160 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gl%C3%BChwein_Weinnachtsmarkt_OS.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/goulash.jpg" width="150" height="150" loading="lazy" alt="Гуляш">
+  <figcaption>
+    <b>Гуляш</b>
+    <span class="meta">суп · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gulyas080.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/zurek.jpg" width="150" height="150" loading="lazy" alt="Журек">
+  <figcaption>
+    <b>Журек</b>
+    <span class="meta">суп · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Krkono%C5%A1sk%C3%A9_kyselo.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/halaszle.jpg" width="150" height="150" loading="lazy" alt="Халасле">
+  <figcaption>
+    <b>Халасле</b>
+    <span class="meta">суп · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pot_of_Hungarian_Fisherman%27s_Soup_(Hal%C3%A1szl%C3%A9,_Karpfensuppe).jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/artsoppa.jpg" width="150" height="150" loading="lazy" alt="Шведский гороховый суп">
+  <figcaption>
+    <b>Шведский гороховый суп</b>
+    <span class="meta">суп · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Erwtensoep_roggebrood_katenspek.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/potage-de-potiron.jpg" width="150" height="150" loading="lazy" alt="Суп-пюре из тыквы">
+  <figcaption>
+    <b>Суп-пюре из тыквы</b>
+    <span class="meta">суп · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:K%C3%BCrbissuppe_mit_Kern%C3%B6l.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/wurstsalat.jpg" width="150" height="150" loading="lazy" alt="Салат с колбасой">
+  <figcaption>
+    <b>Салат с колбасой</b>
+    <span class="meta">салат · 310 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Wurstsalat-1.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/salade-de-chevre-chaud.jpg" width="150" height="150" loading="lazy" alt="Салат с тёплым козьим сыром">
+  <figcaption>
+    <b>Салат с тёплым козьим сыром</b>
+    <span class="meta">салат · 260 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Salade_de_ch%C3%A8vre_chaud_002.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/salade-liegeoise.jpg" width="150" height="150" loading="lazy" alt="Салат по-льежски">
+  <figcaption>
+    <b>Салат по-льежски</b>
+    <span class="meta">салат · 290 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Salade_li%C3%A9geoise.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/croque-monsieur.jpg" width="150" height="150" loading="lazy" alt="Крок-месье">
+  <figcaption>
+    <b>Крок-месье</b>
+    <span class="meta">закуска · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Croque_monsieur.jpg" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/pate.jpg" width="150" height="150" loading="lazy" alt="Паштет">
+  <figcaption>
+    <b>Паштет</b>
+    <span class="meta">закуска · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pates_p1150435.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/smorrebrod.jpg" width="150" height="150" loading="lazy" alt="Смёрребрёд">
+  <figcaption>
+    <b>Смёрребрёд</b>
+    <span class="meta">закуска · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ida_Davidsen_udsnit_af_glasmontren.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/bitterballen.jpg" width="150" height="150" loading="lazy" alt="Биттерболлен">
+  <figcaption>
+    <b>Биттерболлен</b>
+    <span class="meta">закуска · 330 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bitterballen_mosterd_mayo.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/welsh-rarebit.jpg" width="150" height="150" loading="lazy" alt="Уэльский рабит">
+  <figcaption>
+    <b>Уэльский рабит</b>
+    <span class="meta">закуска · 390 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Welsh_rarebit.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/black-pudding.jpg" width="150" height="150" loading="lazy" alt="Чёрный пудинг">
+  <figcaption>
+    <b>Чёрный пудинг</b>
+    <span class="meta">закуска · 310 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Stornoway_Black_Pudding.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/smoked-herring.jpg" width="150" height="150" loading="lazy" alt="Копчёная сельдь">
+  <figcaption>
+    <b>Копчёная сельдь</b>
+    <span class="meta">закуска · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Smoked_herring_sold_in_Italy.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/cassoulet.jpg" width="150" height="150" loading="lazy" alt="Кассуле">
+  <figcaption>
+    <b>Кассуле</b>
+    <span class="meta">горячее · 520 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bowl_of_cassoulet.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/tartiflette.jpg" width="150" height="150" loading="lazy" alt="Тартифлет">
+  <figcaption>
+    <b>Тартифлет</b>
+    <span class="meta">горячее · 620 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Une_tartiflette_sortie_du_four.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/fondue.jpg" width="150" height="150" loading="lazy" alt="Фондю">
+  <figcaption>
+    <b>Фондю</b>
+    <span class="meta">горячее · 680 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Fondue_dish.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/schweinshaxe.jpg" width="150" height="150" loading="lazy" alt="Рулька по-баварски">
+  <figcaption>
+    <b>Рулька по-баварски</b>
+    <span class="meta">горячее · 750 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:00ane_Haxen.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/currywurst.jpg" width="150" height="150" loading="lazy" alt="Карривурст">
+  <figcaption>
+    <b>Карривурст</b>
+    <span class="meta">горячее · 560 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:20220430_currywurst.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/carbonnade-flamande.jpg" width="150" height="150" loading="lazy" alt="Карбонад по-фламандски">
+  <figcaption>
+    <b>Карбонад по-фламандски</b>
+    <span class="meta">горячее · 540 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Jielbeaumadier_carbonade_flamande_2010.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/bangers-and-mash.jpg" width="150" height="150" loading="lazy" alt="Бангерс-энд-мэш">
+  <figcaption>
+    <b>Бангерс-энд-мэш</b>
+    <span class="meta">горячее · 620 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sausage_and_mash_with_peas.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/sunday-roast.jpg" width="150" height="150" loading="lazy" alt="Воскресное жаркое">
+  <figcaption>
+    <b>Воскресное жаркое</b>
+    <span class="meta">горячее · 700 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sunday_roast_lamb_Cock_Inn_Henham_Essex_England_01.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/irish-stew.jpg" width="150" height="150" loading="lazy" alt="Ирландское рагу">
+  <figcaption>
+    <b>Ирландское рагу</b>
+    <span class="meta">горячее · 480 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Irish_Beef_Stew_(34046928633).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/janssons-frestelse.jpg" width="150" height="150" loading="lazy" alt="Янссонс фрестельсе">
+  <figcaption>
+    <b>Янссонс фрестельсе</b>
+    <span class="meta">горячее · 430 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Janssons_frestelse.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/bigos.jpg" width="150" height="150" loading="lazy" alt="Бигос">
+  <figcaption>
+    <b>Бигос</b>
+    <span class="meta">горячее · 390 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bigos_(1).jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/paprikash.jpg" width="150" height="150" loading="lazy" alt="Паприкаш">
+  <figcaption>
+    <b>Паприкаш</b>
+    <span class="meta">горячее · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Chicken_Paprikash_(Csirke_Paprik%C3%A1s).jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/flammkuchen.jpg" width="150" height="150" loading="lazy" alt="Фламмкухен">
+  <figcaption>
+    <b>Фламмкухен</b>
+    <span class="meta">выпечка · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Flameukeusche_2.jpg" target="_blank" rel="noopener">CeCILL</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/yorkshire-pudding.jpg" width="150" height="150" loading="lazy" alt="Йоркширский пудинг">
+  <figcaption>
+    <b>Йоркширский пудинг</b>
+    <span class="meta">выпечка · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Yorkshire_Puddings_on_plate.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/soda-bread.jpg" width="150" height="150" loading="lazy" alt="Содовый хлеб">
+  <figcaption>
+    <b>Содовый хлеб</b>
+    <span class="meta">выпечка · 240 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ben_W_Bell_Soda_Bread_Farl_05_June_2007.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/madeleine.jpg" width="150" height="150" loading="lazy" alt="Мадлен">
+  <figcaption>
+    <b>Мадлен</b>
+    <span class="meta">выпечка · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Madeleines_pic.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/linzer-torte.jpg" width="150" height="150" loading="lazy" alt="Линцский торт">
+  <figcaption>
+    <b>Линцский торт</b>
+    <span class="meta">выпечка · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Foto.Linzertorte.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/kaiserschmarrn.jpg" width="150" height="150" loading="lazy" alt="Кайзершмаррн">
+  <figcaption>
+    <b>Кайзершмаррн</b>
+    <span class="meta">десерт · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:2015_0731_Kaiserschmarrn_Apfelso%C3%9Fe_Edelweissh%C3%BCtte_S%C3%B6lden.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/belgian-waffle.jpg" width="150" height="150" loading="lazy" alt="Бельгийская вафля">
+  <figcaption>
+    <b>Бельгийская вафля</b>
+    <span class="meta">десерт · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Waffle_with_strawberries_and_confectioner%27s_sugar.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/black-forest-cake.jpg" width="150" height="150" loading="lazy" alt="Торт «Чёрный лес»">
+  <figcaption>
+    <b>Торт «Чёрный лес»</b>
+    <span class="meta">десерт · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Black_Forest_gateau.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/paczki.jpg" width="150" height="150" loading="lazy" alt="Пончики по-польски">
+  <figcaption>
+    <b>Пончики по-польски</b>
+    <span class="meta">десерт · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Polskie_p%C4%85czki.jpg" target="_blank" rel="noopener">GFDL 1.2</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/european/glogg.jpg" width="150" height="150" loading="lazy" alt="Глёгг">
+  <figcaption>
+    <b>Глёгг</b>
+    <span class="meta">напиток · 160 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gl%C3%B6gi_2.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+  </div>
+</section>
+<section>
+  <h2>Итальянская кухня <span class="count">55 блюд</span></h2>
+  <div class="grid">
+<figure class="card">
+  <img src="images/italian/minestrone.jpg" width="150" height="150" loading="lazy" alt="Минестроне">
+  <figcaption>
+    <b>Минестроне</b>
+    <span class="meta">суп · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Minestrone_soup_(5).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/ribollita.jpg" width="150" height="150" loading="lazy" alt="Риболлита">
+  <figcaption>
+    <b>Риболлита</b>
+    <span class="meta">суп · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ribollita_Siena.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/caprese-salad.jpg" width="150" height="150" loading="lazy" alt="Салат капрезе">
+  <figcaption>
+    <b>Салат капрезе</b>
+    <span class="meta">салат · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Caprese-1_(tigher_crop).jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/panzanella.jpg" width="150" height="150" loading="lazy" alt="Панцанелла">
+  <figcaption>
+    <b>Панцанелла</b>
+    <span class="meta">салат · 230 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Italian_Panzanella.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/bruschetta.jpg" width="150" height="150" loading="lazy" alt="Брускетта">
+  <figcaption>
+    <b>Брускетта</b>
+    <span class="meta">закуска · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:2014_Bruschetta_The_Larder_Chiang_Mai.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/arancini.jpg" width="150" height="150" loading="lazy" alt="Аранчини">
+  <figcaption>
+    <b>Аранчини</b>
+    <span class="meta">закуска · 330 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Arancini_002.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/vitello-tonnato.jpg" width="150" height="150" loading="lazy" alt="Виттелло тоннато">
+  <figcaption>
+    <b>Виттелло тоннато</b>
+    <span class="meta">закуска · 290 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Vitello_tonnato.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/carbonara.jpg" width="150" height="150" loading="lazy" alt="Паста карбонара">
+  <figcaption>
+    <b>Паста карбонара</b>
+    <span class="meta">горячее · 480 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Espaguetis_carbonara.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/neapolitan-pizza.jpg" width="150" height="150" loading="lazy" alt="Неаполитанская пицца">
+  <figcaption>
+    <b>Неаполитанская пицца</b>
+    <span class="meta">горячее · 850 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Neapolitan_pizza_at_Trappica_(48701940197).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/lasagne.jpg" width="150" height="150" loading="lazy" alt="Лазанья">
+  <figcaption>
+    <b>Лазанья</b>
+    <span class="meta">горячее · 620 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Lasagne_-_stonesoup.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/risotto-alla-milanese.jpg" width="150" height="150" loading="lazy" alt="Ризотто по-милански">
+  <figcaption>
+    <b>Ризотто по-милански</b>
+    <span class="meta">горячее · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Risotto_with_speck_and_goat_cheese_(6101067436).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/pasta-alla-norma.jpg" width="150" height="150" loading="lazy" alt="Паста алла норма">
+  <figcaption>
+    <b>Паста алла норма</b>
+    <span class="meta">горячее · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pasta_alla_Norma_-_Wiki_Loves_Sicilia.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/focaccia.jpg" width="150" height="150" loading="lazy" alt="Фокачча">
+  <figcaption>
+    <b>Фокачча</b>
+    <span class="meta">выпечка · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Focaccia_with_Crumb.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/tiramisu.jpg" width="150" height="150" loading="lazy" alt="Тирамису">
+  <figcaption>
+    <b>Тирамису</b>
+    <span class="meta">десерт · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tiramisu_-_Raffaele_Diomede.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/panna-cotta.jpg" width="150" height="150" loading="lazy" alt="Панна котта">
+  <figcaption>
+    <b>Панна котта</b>
+    <span class="meta">десерт · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Panna_Cotta_with_cream_and_garnish.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/pasta-e-fagioli.jpg" width="150" height="150" loading="lazy" alt="Паста с фасолью">
+  <figcaption>
+    <b>Паста с фасолью</b>
+    <span class="meta">суп · 320 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pasta_e_fagioli_cannellini.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/stracciatella.jpg" width="150" height="150" loading="lazy" alt="Страчателла">
+  <figcaption>
+    <b>Страчателла</b>
+    <span class="meta">суп · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Straciatella_-_bowl.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/acquacotta.jpg" width="150" height="150" loading="lazy" alt="Аквакотта">
+  <figcaption>
+    <b>Аквакотта</b>
+    <span class="meta">суп · 290 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Acquacotta_soup_(cropped).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/brodetto.jpg" width="150" height="150" loading="lazy" alt="Бродетто">
+  <figcaption>
+    <b>Бродетто</b>
+    <span class="meta">суп · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Brodet.JPG" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/insalata-di-rucola.jpg" width="150" height="150" loading="lazy" alt="Салат из рукколы">
+  <figcaption>
+    <b>Салат из рукколы</b>
+    <span class="meta">салат · 150 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Eruca_sativa_1_IP0206101.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card" data-placeholder="1">
+  <img src="images/italian/insalata-di-rinforzo.jpg" width="150" height="150" loading="lazy" alt="Салат ринфорцо">
+  <figcaption>
+    <b>Салат ринфорцо</b>
+    <span class="meta">салат · 170 ккал</span>
+    
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/puntarelle.jpg" width="150" height="150" loading="lazy" alt="Пунтарелле">
+  <figcaption>
+    <b>Пунтарелле</b>
+    <span class="meta">салат · 130 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Puntarelle_stehend.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card" data-placeholder="1">
+  <img src="images/italian/condiglione.jpg" width="150" height="150" loading="lazy" alt="Кондильоне">
+  <figcaption>
+    <b>Кондильоне</b>
+    <span class="meta">салат · 160 ккал</span>
+    
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/caponata.jpg" width="150" height="150" loading="lazy" alt="Капоната">
+  <figcaption>
+    <b>Капоната</b>
+    <span class="meta">закуска · 210 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Caponata_(14049113982).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/crostini.jpg" width="150" height="150" loading="lazy" alt="Кростини">
+  <figcaption>
+    <b>Кростини</b>
+    <span class="meta">закуска · 240 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Crostini_by_Charles_Haynes.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/carpaccio.jpg" width="150" height="150" loading="lazy" alt="Карпаччо">
+  <figcaption>
+    <b>Карпаччо</b>
+    <span class="meta">закуска · 190 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Carpaccio_with_cheese_in_Warsaw.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/prosciutto-e-melone.jpg" width="150" height="150" loading="lazy" alt="Прошутто с дыней">
+  <figcaption>
+    <b>Прошутто с дыней</b>
+    <span class="meta">закуска · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Jam%C3%B3n_serrano_con_mel%C3%B3n.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/burrata.jpg" width="150" height="150" loading="lazy" alt="Буррата">
+  <figcaption>
+    <b>Буррата</b>
+    <span class="meta">закуска · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Burrata2.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/suppli.jpg" width="150" height="150" loading="lazy" alt="Супли">
+  <figcaption>
+    <b>Супли</b>
+    <span class="meta">закуска · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Suppl%C3%AC.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/olive-ascolane.jpg" width="150" height="150" loading="lazy" alt="Оливки асколане">
+  <figcaption>
+    <b>Оливки асколане</b>
+    <span class="meta">закуска · 330 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Olive_all%27ascolana.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/bagna-cauda.jpg" width="150" height="150" loading="lazy" alt="Банья кауда">
+  <figcaption>
+    <b>Банья кауда</b>
+    <span class="meta">закуска · 260 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bagna_Cauda_a_la_Champaqu%C3%AD_019.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/pasta-amatriciana.jpg" width="150" height="150" loading="lazy" alt="Паста аматричана">
+  <figcaption>
+    <b>Паста аматричана</b>
+    <span class="meta">горячее · 480 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bucatini_allamatriciana.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/pasta-bolognese.jpg" width="150" height="150" loading="lazy" alt="Паста болоньезе">
+  <figcaption>
+    <b>Паста болоньезе</b>
+    <span class="meta">горячее · 550 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tagliatelle_al_rag%C3%B9_(image_modified).jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/pasta-al-pesto.jpg" width="150" height="150" loading="lazy" alt="Паста с песто">
+  <figcaption>
+    <b>Паста с песто</b>
+    <span class="meta">горячее · 470 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:BasilPesto.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/ravioli.jpg" width="150" height="150" loading="lazy" alt="Равиоли">
+  <figcaption>
+    <b>Равиоли</b>
+    <span class="meta">горячее · 430 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Flickr_-_cyclonebill_-_Ravioli_med_skinke_og_asparges_i_mascarponecreme.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/tortellini.jpg" width="150" height="150" loading="lazy" alt="Тортеллини">
+  <figcaption>
+    <b>Тортеллини</b>
+    <span class="meta">горячее · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tortellini_Bolognesi.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/gnocchi.jpg" width="150" height="150" loading="lazy" alt="Ньокки">
+  <figcaption>
+    <b>Ньокки</b>
+    <span class="meta">горячее · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gnocchi_di_ricotta_burro_e_salvia.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/cannelloni.jpg" width="150" height="150" loading="lazy" alt="Каннеллони">
+  <figcaption>
+    <b>Каннеллони</b>
+    <span class="meta">горячее · 520 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Cannelloni2.png" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/risotto-ai-funghi.jpg" width="150" height="150" loading="lazy" alt="Ризотто с грибами">
+  <figcaption>
+    <b>Ризотто с грибами</b>
+    <span class="meta">горячее · 480 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Mushroom_Risotto_(4790048026).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/risotto-ai-frutti-di-mare.jpg" width="150" height="150" loading="lazy" alt="Ризотто с морепродуктами">
+  <figcaption>
+    <b>Ризотто с морепродуктами</b>
+    <span class="meta">горячее · 510 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sea_risotto_in_Dekani.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/ossobuco.jpg" width="150" height="150" loading="lazy" alt="Оссобуко">
+  <figcaption>
+    <b>Оссобуко</b>
+    <span class="meta">горячее · 600 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ossobuco.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/saltimbocca.jpg" width="150" height="150" loading="lazy" alt="Сальтимбокка">
+  <figcaption>
+    <b>Сальтимбокка</b>
+    <span class="meta">горячее · 440 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Saltimbocca_01.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/parmigiana.jpg" width="150" height="150" loading="lazy" alt="Пармиджана">
+  <figcaption>
+    <b>Пармиджана</b>
+    <span class="meta">горячее · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Parmigiana_di_melanzane.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/pizza-bianca.jpg" width="150" height="150" loading="lazy" alt="Пицца-бьянка">
+  <figcaption>
+    <b>Пицца-бьянка</b>
+    <span class="meta">выпечка · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pizza_for_slices_in_Rome.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/calzone.jpg" width="150" height="150" loading="lazy" alt="Кальцоне">
+  <figcaption>
+    <b>Кальцоне</b>
+    <span class="meta">выпечка · 560 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Wikimania_2016_Deryck_day_0_-_07_calzone.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/piadina.jpg" width="150" height="150" loading="lazy" alt="Пьядина">
+  <figcaption>
+    <b>Пьядина</b>
+    <span class="meta">выпечка · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Piadina_romagnola_2.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/panzerotti.jpg" width="150" height="150" loading="lazy" alt="Панцеротти">
+  <figcaption>
+    <b>Панцеротти</b>
+    <span class="meta">выпечка · 430 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Panzerotti_chez_PanzerotTiamo_(Lyon)_-_2.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/cannoli.jpg" width="150" height="150" loading="lazy" alt="Канноли">
+  <figcaption>
+    <b>Канноли</b>
+    <span class="meta">десерт · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Cannoli_siciliani_al_Caff%C3%A8_Impero,_ad_Alcamo.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/panettone.jpg" width="150" height="150" loading="lazy" alt="Панеттоне">
+  <figcaption>
+    <b>Панеттоне</b>
+    <span class="meta">десерт · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Panettone_-_Nicolettone_2017_-_IMG_7085_(31752542285).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/panforte.jpg" width="150" height="150" loading="lazy" alt="Панфорте">
+  <figcaption>
+    <b>Панфорте</b>
+    <span class="meta">десерт · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Panforte.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/affogato.jpg" width="150" height="150" loading="lazy" alt="Аффогато">
+  <figcaption>
+    <b>Аффогато</b>
+    <span class="meta">десерт · 210 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Vinoteca,_Smithfield,_London_(4485849609).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/zeppole.jpg" width="150" height="150" loading="lazy" alt="Зепполе">
+  <figcaption>
+    <b>Зепполе</b>
+    <span class="meta">десерт · 320 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Zeppole_(5906312247).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/torta-caprese.jpg" width="150" height="150" loading="lazy" alt="Торта капрезе">
+  <figcaption>
+    <b>Торта капрезе</b>
+    <span class="meta">десерт · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Torta_caprese_with_confectioner%27s_sugar_and_chocolate_sauce_(7830104492)_(cropped).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/limoncello.jpg" width="150" height="150" loading="lazy" alt="Лимончелло">
+  <figcaption>
+    <b>Лимончелло</b>
+    <span class="meta">напиток · 160 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Limoncello_divers.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/italian/negroni.jpg" width="150" height="150" loading="lazy" alt="Негрони">
+  <figcaption>
+    <b>Негрони</b>
+    <span class="meta">напиток · 200 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:C%C3%B3ctel_Negroni_Campari.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+  </div>
+</section>
+<section>
+  <h2>Средиземноморская кухня <span class="count">55 блюд</span></h2>
+  <div class="grid">
+<figure class="card">
+  <img src="images/mediterranean/gazpacho.jpg" width="150" height="150" loading="lazy" alt="Гаспачо">
+  <figcaption>
+    <b>Гаспачо</b>
+    <span class="meta">суп · 120 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gazpacho_Malague%C3%B1o_con_su_%E2%80%9Cpica%C3%ADto%E2%80%9D_-_Moreno,_Playa_Burriana_(cropped).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/caldo-verde.jpg" width="150" height="150" loading="lazy" alt="Калду-верди">
+  <figcaption>
+    <b>Калду-верди</b>
+    <span class="meta">суп · 240 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Caldo_verde.jpg" target="_blank" rel="noopener">CC BY-SA 2.5 br</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/avgolemono.jpg" width="150" height="150" loading="lazy" alt="Авголемоно">
+  <figcaption>
+    <b>Авголемоно</b>
+    <span class="meta">суп · 210 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Avgolemono_soup.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/greek-salad.jpg" width="150" height="150" loading="lazy" alt="Греческий салат">
+  <figcaption>
+    <b>Греческий салат</b>
+    <span class="meta">салат · 210 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Greece_Food_Horiatiki.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/pipirrana.jpg" width="150" height="150" loading="lazy" alt="Пипиррана">
+  <figcaption>
+    <b>Пипиррана</b>
+    <span class="meta">салат · 190 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ensalada_murciana_IMGP4187.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/jamon-iberico.jpg" width="150" height="150" loading="lazy" alt="Хамон иберико">
+  <figcaption>
+    <b>Хамон иберико</b>
+    <span class="meta">закуска · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Jamon_iberico_de_bellota_2_(cinco_jotas).jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/patatas-bravas.jpg" width="150" height="150" loading="lazy" alt="Пататас бравас">
+  <figcaption>
+    <b>Пататас бравас</b>
+    <span class="meta">закуска · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Patatas_bravas_madrid.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/tzatziki.jpg" width="150" height="150" loading="lazy" alt="Дзадзики">
+  <figcaption>
+    <b>Дзадзики</b>
+    <span class="meta">закуска · 120 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Cacik-1.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/dolmades.jpg" width="150" height="150" loading="lazy" alt="Долмадес">
+  <figcaption>
+    <b>Долмадес</b>
+    <span class="meta">закуска · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Speca_te_mbushura_me_mish.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/spanish-omelette.jpg" width="150" height="150" loading="lazy" alt="Тортилья">
+  <figcaption>
+    <b>Тортилья</b>
+    <span class="meta">закуска · 320 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tortilla_de_patata_-_San_Sebasti%C3%A1n.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/pulpo-a-la-gallega.jpg" width="150" height="150" loading="lazy" alt="Осьминог по-галисийски">
+  <figcaption>
+    <b>Осьминог по-галисийски</b>
+    <span class="meta">закуска · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Polbo_a_feira.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/paella.jpg" width="150" height="150" loading="lazy" alt="Паэлья">
+  <figcaption>
+    <b>Паэлья</b>
+    <span class="meta">горячее · 560 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:01_Paella_Valenciana_original.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/fabada-asturiana.jpg" width="150" height="150" loading="lazy" alt="Фабада">
+  <figcaption>
+    <b>Фабада</b>
+    <span class="meta">горячее · 610 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Fabada_en_cazuela_de_barro.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/moussaka.jpg" width="150" height="150" loading="lazy" alt="Мусака">
+  <figcaption>
+    <b>Мусака</b>
+    <span class="meta">горячее · 540 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:MussakasMeMelitsanesKePatates01.JPG" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/souvlaki.jpg" width="150" height="150" loading="lazy" alt="Сувлаки">
+  <figcaption>
+    <b>Сувлаки</b>
+    <span class="meta">горячее · 480 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%CE%95%CE%BB%CE%BB%CE%B7%CE%BD%CE%B9%CE%BA%CF%8C_%CE%A3%CE%BF%CF%85%CE%B2%CE%BB%CE%AC%CE%BA%CE%B9_-_panoramio.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/pastitsio.jpg" width="150" height="150" loading="lazy" alt="Пастицио">
+  <figcaption>
+    <b>Пастицио</b>
+    <span class="meta">горячее · 590 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pastitsio_homemade.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/bacalhau-a-bras.jpg" width="150" height="150" loading="lazy" alt="Бакальяу а браш">
+  <figcaption>
+    <b>Бакальяу а браш</b>
+    <span class="meta">горячее · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bacalhau_a_Bras.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/francesinha.jpg" width="150" height="150" loading="lazy" alt="Франсезинья">
+  <figcaption>
+    <b>Франсезинья</b>
+    <span class="meta">горячее · 780 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Francesinha_Sandwich_(cropped).jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/spanakopita.jpg" width="150" height="150" loading="lazy" alt="Спанакопита">
+  <figcaption>
+    <b>Спанакопита</b>
+    <span class="meta">выпечка · 330 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Spanakopita.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/churros.jpg" width="150" height="150" loading="lazy" alt="Чуррос">
+  <figcaption>
+    <b>Чуррос</b>
+    <span class="meta">десерт · 360 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Chocolate_con_churros_(27343655726).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/pastel-de-nata.jpg" width="150" height="150" loading="lazy" alt="Паштел-де-ната">
+  <figcaption>
+    <b>Паштел-де-ната</b>
+    <span class="meta">десерт · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pasteis_de_Belem.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/sangria.jpg" width="150" height="150" loading="lazy" alt="Сангрия">
+  <figcaption>
+    <b>Сангрия</b>
+    <span class="meta">напиток · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Red_Wine_Sangria_with_lemon,_lime,_apple,_and_orange_served_in_a_glass_-_Evan_Swigart.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/fasolada.jpg" width="150" height="150" loading="lazy" alt="Фасолада">
+  <figcaption>
+    <b>Фасолада</b>
+    <span class="meta">суп · 260 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Fasolada.JPG" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/sopa-de-ajo.jpg" width="150" height="150" loading="lazy" alt="Сопа де ахо">
+  <figcaption>
+    <b>Сопа де ахо</b>
+    <span class="meta">суп · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:00_Sopa_de_Ajo.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/caldeirada.jpg" width="150" height="150" loading="lazy" alt="Калдейрада">
+  <figcaption>
+    <b>Калдейрада</b>
+    <span class="meta">суп · 320 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Caldeirada_Paraense.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card" data-placeholder="1">
+  <img src="images/mediterranean/kakavia.jpg" width="150" height="150" loading="lazy" alt="Какавия">
+  <figcaption>
+    <b>Какавия</b>
+    <span class="meta">суп · 240 ккал</span>
+    
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/dakos.jpg" width="150" height="150" loading="lazy" alt="Дакос">
+  <figcaption>
+    <b>Дакос</b>
+    <span class="meta">салат · 290 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Koukouvagia.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/esqueixada.jpg" width="150" height="150" loading="lazy" alt="Эскейшада">
+  <figcaption>
+    <b>Эскейшада</b>
+    <span class="meta">салат · 210 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Esqueixada_01.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/xato.jpg" width="150" height="150" loading="lazy" alt="Шато">
+  <figcaption>
+    <b>Шато</b>
+    <span class="meta">салат · 230 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Romesco.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/salada-de-polvo.jpg" width="150" height="150" loading="lazy" alt="Салада де полву">
+  <figcaption>
+    <b>Салада де полву</b>
+    <span class="meta">салат · 240 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ahtapot.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/saganaki.jpg" width="150" height="150" loading="lazy" alt="Саганаки">
+  <figcaption>
+    <b>Саганаки</b>
+    <span class="meta">закуска · 330 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Grekiska_koket_02.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/halloumi.jpg" width="150" height="150" loading="lazy" alt="Халлуми">
+  <figcaption>
+    <b>Халлуми</b>
+    <span class="meta">закуска · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Halloumislice_zoom.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/taramasalata.jpg" width="150" height="150" loading="lazy" alt="Тарамасалата">
+  <figcaption>
+    <b>Тарамасалата</b>
+    <span class="meta">закуска · 270 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Taramosalata01.jpg" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/gigantes-plaki.jpg" width="150" height="150" loading="lazy" alt="Гигантес плаки">
+  <figcaption>
+    <b>Гигантес плаки</b>
+    <span class="meta">закуска · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gigandes_plaki.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/bigilla.jpg" width="150" height="150" loading="lazy" alt="Бигилла">
+  <figcaption>
+    <b>Бигилла</b>
+    <span class="meta">закуска · 190 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Homemade_Bigilla_from_Malta.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/aioli.jpg" width="150" height="150" loading="lazy" alt="Алиоли">
+  <figcaption>
+    <b>Алиоли</b>
+    <span class="meta">закуска · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:A%C3%AFoli_maison.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/croquetas-de-jamon.jpg" width="150" height="150" loading="lazy" alt="Хамон-крокеты">
+  <figcaption>
+    <b>Хамон-крокеты</b>
+    <span class="meta">закуска · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Barrica,_Fitzrovia,_London_(4093408145).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/alheira.jpg" width="150" height="150" loading="lazy" alt="Алхейра">
+  <figcaption>
+    <b>Алхейра</b>
+    <span class="meta">закуска · 310 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Alheira_Feira_2010.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/kleftiko.jpg" width="150" height="150" loading="lazy" alt="Клефтико">
+  <figcaption>
+    <b>Клефтико</b>
+    <span class="meta">горячее · 520 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kleftiko.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/gyros.jpg" width="150" height="150" loading="lazy" alt="Гирос">
+  <figcaption>
+    <b>Гирос</b>
+    <span class="meta">горячее · 480 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pita_giros.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/gemista.jpg" width="150" height="150" loading="lazy" alt="Гемиста">
+  <figcaption>
+    <b>Гемиста</b>
+    <span class="meta">горячее · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gemista.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/afelia.jpg" width="150" height="150" loading="lazy" alt="Афелия">
+  <figcaption>
+    <b>Афелия</b>
+    <span class="meta">горячее · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Af%C3%A9lia.jpg" target="_blank" rel="noopener">CC BY 2.5</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/bifana.jpg" width="150" height="150" loading="lazy" alt="Бифана">
+  <figcaption>
+    <b>Бифана</b>
+    <span class="meta">горячее · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Porto-style_Bifana_sandwich_with_egg.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/arroz-de-marisco.jpg" width="150" height="150" loading="lazy" alt="Аррос де мариску">
+  <figcaption>
+    <b>Аррос де мариску</b>
+    <span class="meta">горячее · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Seafood_Rice,_Arroz_de_Marisco.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/cocido-madrileno.jpg" width="150" height="150" loading="lazy" alt="Косидо мадриленьо">
+  <figcaption>
+    <b>Косидо мадриленьо</b>
+    <span class="meta">горячее · 560 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:CocidoMadrile%C3%B1o.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/pisto.jpg" width="150" height="150" loading="lazy" alt="Писто">
+  <figcaption>
+    <b>Писто</b>
+    <span class="meta">горячее · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pisto.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/escalivada.jpg" width="150" height="150" loading="lazy" alt="Эскаливада">
+  <figcaption>
+    <b>Эскаливада</b>
+    <span class="meta">горячее · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Escalivada.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/stuffat-tal-fenek.jpg" width="150" height="150" loading="lazy" alt="Стуффат таль-фенек">
+  <figcaption>
+    <b>Стуффат таль-фенек</b>
+    <span class="meta">горячее · 430 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Malta_Rabbit_fried_with_wine_and_garlic.JPG" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/tiropita.jpg" width="150" height="150" loading="lazy" alt="Тиропита">
+  <figcaption>
+    <b>Тиропита</b>
+    <span class="meta">выпечка · 310 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tiropita_Greek_dish.jpg" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/pastizzi.jpg" width="150" height="150" loading="lazy" alt="Пастицци">
+  <figcaption>
+    <b>Пастицци</b>
+    <span class="meta">выпечка · 290 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Malta_Pastizzi.JPG" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/ensaimada.jpg" width="150" height="150" loading="lazy" alt="Энсаймада">
+  <figcaption>
+    <b>Энсаймада</b>
+    <span class="meta">выпечка · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ensaimada_3.jpg" target="_blank" rel="noopener">Copyrighted free use</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/galaktoboureko.jpg" width="150" height="150" loading="lazy" alt="Галактобуреко">
+  <figcaption>
+    <b>Галактобуреко</b>
+    <span class="meta">десерт · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Galaktoboureko.jpg" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/loukoumades.jpg" width="150" height="150" loading="lazy" alt="Лукумадес">
+  <figcaption>
+    <b>Лукумадес</b>
+    <span class="meta">десерт · 340 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sam%27dan_lokma_tatlisi.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/crema-catalana.jpg" width="150" height="150" loading="lazy" alt="Крема каталана">
+  <figcaption>
+    <b>Крема каталана</b>
+    <span class="meta">десерт · 290 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Creme_catalane.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/mediterranean/tarta-de-santiago.jpg" width="150" height="150" loading="lazy" alt="Торт де Сантьяго">
+  <figcaption>
+    <b>Торт де Сантьяго</b>
+    <span class="meta">десерт · 360 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tarta_de_Santiago-2010.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+  </div>
+</section>
+<section>
+  <h2>Восточная кухня <span class="count">69 блюд</span></h2>
+  <div class="grid">
+<figure class="card">
+  <img src="images/eastern/shurpa.jpg" width="150" height="150" loading="lazy" alt="Шурпа">
+  <figcaption>
+    <b>Шурпа</b>
+    <span class="meta">суп · 310 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bean_soup_with_tomatoes_and_red_peppers.jpeg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/lagman.jpg" width="150" height="150" loading="lazy" alt="Лагман">
+  <figcaption>
+    <b>Лагман</b>
+    <span class="meta">суп · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D0%9F%D0%BE%D1%80%D1%86%D0%B8%D1%8F_%D0%BB%D0%B0%D0%B3%D0%BC%D0%B0%D0%BD%D0%B0.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/mastava.jpg" width="150" height="150" loading="lazy" alt="Мастава">
+  <figcaption>
+    <b>Мастава</b>
+    <span class="meta">суп · 290 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%81%D1%82%D0%B0%D0%B2%D0%B0.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/ash-reshteh.jpg" width="150" height="150" loading="lazy" alt="Аш-е-реште">
+  <figcaption>
+    <b>Аш-е-реште</b>
+    <span class="meta">суп · 260 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ash_Reshteh.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/harira.jpg" width="150" height="150" loading="lazy" alt="Харира">
+  <figcaption>
+    <b>Харира</b>
+    <span class="meta">суп · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Harira.png" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/bozbash.jpg" width="150" height="150" loading="lazy" alt="Бозбаш">
+  <figcaption>
+    <b>Бозбаш</b>
+    <span class="meta">суп · 340 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tik%C9%99_(chunky_meat)_Bozbash.png" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/ezogelin.jpg" width="150" height="150" loading="lazy" alt="Эзогелин">
+  <figcaption>
+    <b>Эзогелин</b>
+    <span class="meta">суп · 230 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ezogelin_soup,_bread,_and_water.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/ash-e-jo.jpg" width="150" height="150" loading="lazy" alt="Аш-е-джо">
+  <figcaption>
+    <b>Аш-е-джо</b>
+    <span class="meta">суп · 210 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ashe-jo.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/dovga.jpg" width="150" height="150" loading="lazy" alt="Довга">
+  <figcaption>
+    <b>Довга</b>
+    <span class="meta">суп · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Dovga_e-citizen.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/tabbouleh.jpg" width="150" height="150" loading="lazy" alt="Табуле">
+  <figcaption>
+    <b>Табуле</b>
+    <span class="meta">салат · 160 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tabouleh_1.JPG" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/fattoush.jpg" width="150" height="150" loading="lazy" alt="Фаттуш">
+  <figcaption>
+    <b>Фаттуш</b>
+    <span class="meta">салат · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Fattoush_mixed-salad.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/shirazi.jpg" width="150" height="150" loading="lazy" alt="Ширази">
+  <figcaption>
+    <b>Ширази</b>
+    <span class="meta">салат · 90 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D8%B3%D8%A7%D9%84%D8%A7%D8%AF_%D8%B4%DB%8C%D8%B1%D8%A7%D8%B2%DB%8C.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/achik-chuchuk.jpg" width="150" height="150" loading="lazy" alt="Ачик-чучук">
+  <figcaption>
+    <b>Ачик-чучук</b>
+    <span class="meta">салат · 70 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D0%90%D1%87%D1%96%D0%BA-%D1%87%D1%83%D1%87%D1%83%D0%BA.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/kisir.jpg" width="150" height="150" loading="lazy" alt="Кысыр">
+  <figcaption>
+    <b>Кысыр</b>
+    <span class="meta">салат · 200 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kisir.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/piyaz.jpg" width="150" height="150" loading="lazy" alt="Пияз">
+  <figcaption>
+    <b>Пияз</b>
+    <span class="meta">салат · 210 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Piyaz_01.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/hummus.jpg" width="150" height="150" loading="lazy" alt="Хумус">
+  <figcaption>
+    <b>Хумус</b>
+    <span class="meta">закуска · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Lebanese_style_hummus.jpg" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/falafel.jpg" width="150" height="150" loading="lazy" alt="Фалафель">
+  <figcaption>
+    <b>Фалафель</b>
+    <span class="meta">закуска · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Falafels_2.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/baba-ghanoush.jpg" width="150" height="150" loading="lazy" alt="Баба гануш">
+  <figcaption>
+    <b>Баба гануш</b>
+    <span class="meta">закуска · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Baba_Ganoush_05of05_(8735238183).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/mutabbal.jpg" width="150" height="150" loading="lazy" alt="Мутаббаль">
+  <figcaption>
+    <b>Мутаббаль</b>
+    <span class="meta">закуска · 160 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Baba_ganoush_closeup.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/dolma.jpg" width="150" height="150" loading="lazy" alt="Долма">
+  <figcaption>
+    <b>Долма</b>
+    <span class="meta">закуска · 210 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Speca_te_mbushura_me_mish.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/kibbeh.jpg" width="150" height="150" loading="lazy" alt="Киббех">
+  <figcaption>
+    <b>Киббех</b>
+    <span class="meta">закуска · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kibbeh3.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/imam-bayildi.jpg" width="150" height="150" loading="lazy" alt="Имам баялды">
+  <figcaption>
+    <b>Имам баялды</b>
+    <span class="meta">закуска · 190 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%C4%B0mam_bay%C4%B1ld%C4%B1_AvL.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/muhammara.jpg" width="150" height="150" loading="lazy" alt="Мухаммара">
+  <figcaption>
+    <b>Мухаммара</b>
+    <span class="meta">закуска · 240 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tanoreen_muhammara.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/labneh.jpg" width="150" height="150" loading="lazy" alt="Лабне">
+  <figcaption>
+    <b>Лабне</b>
+    <span class="meta">закуска · 150 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Labneh01.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/sarma.jpg" width="150" height="150" loading="lazy" alt="Сарма">
+  <figcaption>
+    <b>Сарма</b>
+    <span class="meta">закуска · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sarma_fillettes.png" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/ful-medames.jpg" width="150" height="150" loading="lazy" alt="Фул медамес">
+  <figcaption>
+    <b>Фул медамес</b>
+    <span class="meta">закуска · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ful_medames_(arabic_meal).jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/cacik.jpg" width="150" height="150" loading="lazy" alt="Джаджик">
+  <figcaption>
+    <b>Джаджик</b>
+    <span class="meta">закуска · 80 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Cacik-1.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/torshi.jpg" width="150" height="150" loading="lazy" alt="Турши">
+  <figcaption>
+    <b>Турши</b>
+    <span class="meta">закуска · 60 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gherkins_and_Onions.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/haydari.jpg" width="150" height="150" loading="lazy" alt="Хайдари">
+  <figcaption>
+    <b>Хайдари</b>
+    <span class="meta">закуска · 110 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Meze_ve_kat%C4%B1kl%C4%B1_ekmek.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/samsa.jpg" width="150" height="150" loading="lazy" alt="Самса">
+  <figcaption>
+    <b>Самса</b>
+    <span class="meta">выпечка · 320 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ouzb%C3%A9kistan-Samsas.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/lahmacun.jpg" width="150" height="150" loading="lazy" alt="Лахмаджун">
+  <figcaption>
+    <b>Лахмаджун</b>
+    <span class="meta">выпечка · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Lahmacun.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/fatayer.jpg" width="150" height="150" loading="lazy" alt="Фатаир">
+  <figcaption>
+    <b>Фатаир</b>
+    <span class="meta">выпечка · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Fatayer.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/sambusak.jpg" width="150" height="150" loading="lazy" alt="Самбусек">
+  <figcaption>
+    <b>Самбусек</b>
+    <span class="meta">выпечка · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Samosas,_snack_food_at_Wikipedia%27s_16th_Birthday_celebration_in_Chittagong_(01).jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/borek.jpg" width="150" height="150" loading="lazy" alt="Бёрек">
+  <figcaption>
+    <b>Бёрек</b>
+    <span class="meta">выпечка · 310 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Burek_trokut_1.png" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/gozleme.jpg" width="150" height="150" loading="lazy" alt="Гёзлеме">
+  <figcaption>
+    <b>Гёзлеме</b>
+    <span class="meta">выпечка · 290 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:G%C3%B6zleme.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/pide.jpg" width="150" height="150" loading="lazy" alt="Пиде">
+  <figcaption>
+    <b>Пиде</b>
+    <span class="meta">выпечка · 330 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pide_in_Ankara.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/qutab.jpg" width="150" height="150" loading="lazy" alt="Кутаб">
+  <figcaption>
+    <b>Кутаб</b>
+    <span class="meta">выпечка · 260 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:K%C3%BCk%C3%BC-Gutab_Azerbaijani.gif" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/pilaf.jpg" width="150" height="150" loading="lazy" alt="Плов">
+  <figcaption>
+    <b>Плов</b>
+    <span class="meta">горячее · 480 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Afghan_Palo.jpg" target="_blank" rel="noopener">CC BY-SA 1.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/manti.jpg" width="150" height="150" loading="lazy" alt="Манты">
+  <figcaption>
+    <b>Манты</b>
+    <span class="meta">горячее · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D0%BA%D0%B8%D0%B5_%D0%BC%D0%B0%D0%BD%D1%82%D1%8B.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/naryn.jpg" width="150" height="150" loading="lazy" alt="Нарын">
+  <figcaption>
+    <b>Нарын</b>
+    <span class="meta">горячее · 320 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Naryn_overlook.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/shashlik.jpg" width="150" height="150" loading="lazy" alt="Шашлык">
+  <figcaption>
+    <b>Шашлык</b>
+    <span class="meta">горячее · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Shashlik.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/kuyrdak.jpg" width="150" height="150" loading="lazy" alt="Куырдак">
+  <figcaption>
+    <b>Куырдак</b>
+    <span class="meta">горячее · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kazakh_quwyrdaq.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/adana-kebab.jpg" width="150" height="150" loading="lazy" alt="Адана-кебаб">
+  <figcaption>
+    <b>Адана-кебаб</b>
+    <span class="meta">горячее · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Adana_kebab.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/doner.jpg" width="150" height="150" loading="lazy" alt="Дёнер">
+  <figcaption>
+    <b>Дёнер</b>
+    <span class="meta">горячее · 550 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:D%C3%B6ner_kebab_slicing.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/iskender-kebab.jpg" width="150" height="150" loading="lazy" alt="Искендер-кебаб">
+  <figcaption>
+    <b>Искендер-кебаб</b>
+    <span class="meta">горячее · 650 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%C4%B0skender_Kebap.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/menemen.jpg" width="150" height="150" loading="lazy" alt="Менемен">
+  <figcaption>
+    <b>Менемен</b>
+    <span class="meta">горячее · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Menemen,_%C4%B0zmir,_Turkey.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/fesenjan.jpg" width="150" height="150" loading="lazy" alt="Фесенджан">
+  <figcaption>
+    <b>Фесенджан</b>
+    <span class="meta">горячее · 480 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Khoresht-e_fesenjan.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/kabab-koobideh.jpg" width="150" height="150" loading="lazy" alt="Кебаб кубиде">
+  <figcaption>
+    <b>Кебаб кубиде</b>
+    <span class="meta">горячее · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kabab_koobideh_bbq_persian_food.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/ghormeh-sabzi.jpg" width="150" height="150" loading="lazy" alt="Гхорме сабзи">
+  <figcaption>
+    <b>Гхорме сабзи</b>
+    <span class="meta">горячее · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ghormeh_Sabzi.JPG" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/tahchin.jpg" width="150" height="150" loading="lazy" alt="Тахчин">
+  <figcaption>
+    <b>Тахчин</b>
+    <span class="meta">горячее · 460 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tachin.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/shawarma.jpg" width="150" height="150" loading="lazy" alt="Шаурма">
+  <figcaption>
+    <b>Шаурма</b>
+    <span class="meta">горячее · 520 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Shawarma_2.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/maqluba.jpg" width="150" height="150" loading="lazy" alt="Маклуба">
+  <figcaption>
+    <b>Маклуба</b>
+    <span class="meta">горячее · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Makluba.JPG" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/mansaf.jpg" width="150" height="150" loading="lazy" alt="Мансаф">
+  <figcaption>
+    <b>Мансаф</b>
+    <span class="meta">горячее · 560 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Mansaf,_the_traditional_dish_of_Jordan.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/musakhan.jpg" width="150" height="150" loading="lazy" alt="Мусакан">
+  <figcaption>
+    <b>Мусакан</b>
+    <span class="meta">горячее · 520 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Mushakhan_Dish.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/shakshuka.jpg" width="150" height="150" loading="lazy" alt="Шакшука">
+  <figcaption>
+    <b>Шакшука</b>
+    <span class="meta">горячее · 240 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Shakshuka_by_Calliopejen1.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/sabich.jpg" width="150" height="150" loading="lazy" alt="Сабих">
+  <figcaption>
+    <b>Сабих</b>
+    <span class="meta">горячее · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sabich1.png" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/kabuli-pulao.jpg" width="150" height="150" loading="lazy" alt="Кабули-плов">
+  <figcaption>
+    <b>Кабули-плов</b>
+    <span class="meta">горячее · 500 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Qabili_Pulau_-_Afghanistan_National_Dish.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/mantu.jpg" width="150" height="150" loading="lazy" alt="Манту">
+  <figcaption>
+    <b>Манту</b>
+    <span class="meta">горячее · 340 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tajik_mantu_(1).jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/baklava.jpg" width="150" height="150" loading="lazy" alt="Баклава">
+  <figcaption>
+    <b>Баклава</b>
+    <span class="meta">десерт · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Baklava(1).png" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/kunefe.jpg" width="150" height="150" loading="lazy" alt="Кюнефе">
+  <figcaption>
+    <b>Кюнефе</b>
+    <span class="meta">десерт · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:K%C3%BCnefe.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/rahat-lukum.jpg" width="150" height="150" loading="lazy" alt="Рахат-лукум">
+  <figcaption>
+    <b>Рахат-лукум</b>
+    <span class="meta">десерт · 320 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:TurkishDelightDisplay.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/chak-chak.jpg" width="150" height="150" loading="lazy" alt="Чак-чак">
+  <figcaption>
+    <b>Чак-чак</b>
+    <span class="meta">десерт · 430 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Chak-chak_shirinligi.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/halva.jpg" width="150" height="150" loading="lazy" alt="Халва">
+  <figcaption>
+    <b>Халва</b>
+    <span class="meta">десерт · 500 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Orient_sweets_(special_halva)_Samarkand,_Siyab.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/luqaimat.jpg" width="150" height="150" loading="lazy" alt="Лукмаймат">
+  <figcaption>
+    <b>Лукмаймат</b>
+    <span class="meta">десерт · 360 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sam%27dan_lokma_tatlisi.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/basbousa.jpg" width="150" height="150" loading="lazy" alt="Басбуса">
+  <figcaption>
+    <b>Басбуса</b>
+    <span class="meta">десерт · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Basboosa.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/faloodeh.jpg" width="150" height="150" loading="lazy" alt="Фалуде">
+  <figcaption>
+    <b>Фалуде</b>
+    <span class="meta">десерт · 210 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Faloodeh1.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/medjool.jpg" width="150" height="150" loading="lazy" alt="Финики маджул">
+  <figcaption>
+    <b>Финики маджул</b>
+    <span class="meta">десерт · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%C5%9Awie%C5%BCy_daktyle_odmiany_MEDJOOL.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/ayran.jpg" width="150" height="150" loading="lazy" alt="Айран">
+  <figcaption>
+    <b>Айран</b>
+    <span class="meta">напиток · 60 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Fresh_ayran.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/eastern/turkish-coffee.jpg" width="150" height="150" loading="lazy" alt="Турецкий кофе">
+  <figcaption>
+    <b>Турецкий кофе</b>
+    <span class="meta">напиток · 20 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:T%C3%BCrk_Kahvesi_-_Bakir_Cezve.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+  </div>
+</section>
+<section>
+  <h2>Азиатская кухня <span class="count">69 блюд</span></h2>
+  <div class="grid">
+<figure class="card">
+  <img src="images/asian/ramen.jpg" width="150" height="150" loading="lazy" alt="Рамен">
+  <figcaption>
+    <b>Рамен</b>
+    <span class="meta">суп · 480 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Shoyu_Ramen%EF%BC%88Tokyo_Ramen%EF%BC%89_-_01.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/miso-soup.jpg" width="150" height="150" loading="lazy" alt="Мисо-суп">
+  <figcaption>
+    <b>Мисо-суп</b>
+    <span class="meta">суп · 40 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Miso_Soup_001.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/tom-yum.jpg" width="150" height="150" loading="lazy" alt="Том-ям">
+  <figcaption>
+    <b>Том-ям</b>
+    <span class="meta">суп · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tom_yam_kung_maenam.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/pho.jpg" width="150" height="150" loading="lazy" alt="Фо">
+  <figcaption>
+    <b>Фо</b>
+    <span class="meta">суп · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bowl_of_Meatball_pho.jpg" target="_blank" rel="noopener">CC BY 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/wonton-soup.jpg" width="150" height="150" loading="lazy" alt="Вонтон-суп">
+  <figcaption>
+    <b>Вонтон-суп</b>
+    <span class="meta">суп · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pork_Steamed_Wontons.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/hot-and-sour-soup.jpg" width="150" height="150" loading="lazy" alt="Кисло-острый суп">
+  <figcaption>
+    <b>Кисло-острый суп</b>
+    <span class="meta">суп · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ping_SJ_hot_%26_sour_soup.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/egg-drop-soup.jpg" width="150" height="150" loading="lazy" alt="Суп с яичными хлопьями">
+  <figcaption>
+    <b>Суп с яичными хлопьями</b>
+    <span class="meta">суп · 90 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:5-Minute_Egg_Drop_Soup-5_(32079790121).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/laksa.jpg" width="150" height="150" loading="lazy" alt="Лакса">
+  <figcaption>
+    <b>Лакса</b>
+    <span class="meta">суп · 550 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Nyonya_Laksa.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/bakso.jpg" width="150" height="150" loading="lazy" alt="Баксо">
+  <figcaption>
+    <b>Баксо</b>
+    <span class="meta">суп · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bakso_mi_bihun.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/sop-buntut.jpg" width="150" height="150" loading="lazy" alt="Суп соп-бунтут">
+  <figcaption>
+    <b>Суп соп-бунтут</b>
+    <span class="meta">суп · 500 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Oxtail_soup_with_sliced_bread-93321.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/sinigang.jpg" width="150" height="150" loading="lazy" alt="Синиганг">
+  <figcaption>
+    <b>Синиганг</b>
+    <span class="meta">суп · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:The_Best_Sinigang_Cuisine.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/som-tam.jpg" width="150" height="150" loading="lazy" alt="Сом-там">
+  <figcaption>
+    <b>Сом-там</b>
+    <span class="meta">салат · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:2013_Tam_Lao.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/kimchi.jpg" width="150" height="150" loading="lazy" alt="Кимчи">
+  <figcaption>
+    <b>Кимчи</b>
+    <span class="meta">салат · 30 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Various_kimchi.jpg" target="_blank" rel="noopener">CC BY-SA 2.0 kr</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/gado-gado.jpg" width="150" height="150" loading="lazy" alt="Гадо-гадо">
+  <figcaption>
+    <b>Гадо-гадо</b>
+    <span class="meta">салат · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gado_gado_jakarta.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/kachumber.jpg" width="150" height="150" loading="lazy" alt="Качумбер">
+  <figcaption>
+    <b>Качумбер</b>
+    <span class="meta">салат · 60 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kachumber_Salad.JPG" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/larb.jpg" width="150" height="150" loading="lazy" alt="Ларб">
+  <figcaption>
+    <b>Ларб</b>
+    <span class="meta">салат · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:LaoFood_LarbNeua.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/dim-sum.jpg" width="150" height="150" loading="lazy" alt="Дим-самы">
+  <figcaption>
+    <b>Дим-самы</b>
+    <span class="meta">закуска · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Chinese_DimSum_(9023590541).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/sushi.jpg" width="150" height="150" loading="lazy" alt="Суши">
+  <figcaption>
+    <b>Суши</b>
+    <span class="meta">закуска · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sushi_platter.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/onigiri.jpg" width="150" height="150" loading="lazy" alt="Онигири">
+  <figcaption>
+    <b>Онигири</b>
+    <span class="meta">закуска · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E6%96%99%E7%90%86%E3%83%90%E3%83%AB%E3%81%95%E3%81%8F%E3%82%89_%E7%89%B9%E8%A3%BD%E3%81%8A%E3%81%AB%E3%81%8E%E3%82%8A.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/gyoza.jpg" width="150" height="150" loading="lazy" alt="Гёдза">
+  <figcaption>
+    <b>Гёдза</b>
+    <span class="meta">закуска · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%E5%8F%B0%E7%81%A3%E5%8D%97%E6%8A%95%E8%8D%89%E5%B1%AF%E6%B0%B4%E9%A4%83Nantou,_Taiwan_Caotun_dumplings.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/cha-gio.jpg" width="150" height="150" loading="lazy" alt="Нэмы">
+  <figcaption>
+    <b>Нэмы</b>
+    <span class="meta">закуска · 230 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Cha_gio.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/summer-roll.jpg" width="150" height="150" loading="lazy" alt="Летние роллы">
+  <figcaption>
+    <b>Летние роллы</b>
+    <span class="meta">закуска · 150 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Homemade_spring_rolls_(7010969349).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/samosa.jpg" width="150" height="150" loading="lazy" alt="Самоса">
+  <figcaption>
+    <b>Самоса</b>
+    <span class="meta">закуска · 260 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Samosas,_snack_food_at_Wikipedia%27s_16th_Birthday_celebration_in_Chittagong_(01).jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/pakora.jpg" width="150" height="150" loading="lazy" alt="Пакора">
+  <figcaption>
+    <b>Пакора</b>
+    <span class="meta">закуска · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Onion_pakora_-_a.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/satay.jpg" width="150" height="150" loading="lazy" alt="Сатэ">
+  <figcaption>
+    <b>Сатэ</b>
+    <span class="meta">закуска · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sate_Udang.JPG" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/lumpia.jpg" width="150" height="150" loading="lazy" alt="Лумпия">
+  <figcaption>
+    <b>Лумпия</b>
+    <span class="meta">закуска · 210 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Loenpia_Semarang.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/kimbap.jpg" width="150" height="150" loading="lazy" alt="Кимбап">
+  <figcaption>
+    <b>Кимбап</b>
+    <span class="meta">закуска · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gimbap_(pixabay).jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/takoyaki.jpg" width="150" height="150" loading="lazy" alt="Такояки">
+  <figcaption>
+    <b>Такояки</b>
+    <span class="meta">закуска · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%E3%82%BD%E3%83%BC%E3%82%B9%E3%81%A8%E3%83%9D%E3%83%B3%E9%85%A2%E3%81%AE%E3%81%9F%E3%81%93%E7%84%BC%E3%81%8D.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/tempura.jpg" width="150" height="150" loading="lazy" alt="Тэмпура">
+  <figcaption>
+    <b>Тэмпура</b>
+    <span class="meta">закуска · 320 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tempura_01.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/kimchi-pancake.jpg" width="150" height="150" loading="lazy" alt="Кимчи-джон">
+  <figcaption>
+    <b>Кимчи-джон</b>
+    <span class="meta">закуска · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kimchibuchimgae_(kimchi_pancake).jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/tteokbokki.jpg" width="150" height="150" loading="lazy" alt="Ттокпокки">
+  <figcaption>
+    <b>Ттокпокки</b>
+    <span class="meta">закуска · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tteokbokki.JPG" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/peking-duck.jpg" width="150" height="150" loading="lazy" alt="Утка по-пекински">
+  <figcaption>
+    <b>Утка по-пекински</b>
+    <span class="meta">горячее · 600 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Peking_Duck,_2014_(02).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/kung-pao.jpg" width="150" height="150" loading="lazy" alt="Курица кунг-пао">
+  <figcaption>
+    <b>Курица кунг-пао</b>
+    <span class="meta">горячее · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kung-pao-shanghai.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/mapo-tofu.jpg" width="150" height="150" loading="lazy" alt="Мапо-тофу">
+  <figcaption>
+    <b>Мапо-тофу</b>
+    <span class="meta">горячее · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Billyfoodmabodofu3.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/chow-mein.jpg" width="150" height="150" loading="lazy" alt="Чоу-мейн">
+  <figcaption>
+    <b>Чоу-мейн</b>
+    <span class="meta">горячее · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Homemade_Chow_mein_with_shrimps_and_meat_with_a_choy_and_Choung.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/hot-pot.jpg" width="150" height="150" loading="lazy" alt="Хого">
+  <figcaption>
+    <b>Хого</b>
+    <span class="meta">горячее · 500 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Hot_Pot.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/tonkatsu.jpg" width="150" height="150" loading="lazy" alt="Тонкацу">
+  <figcaption>
+    <b>Тонкацу</b>
+    <span class="meta">горячее · 550 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%22Amai-Yuwaku%22_Special_Loin_Pork_Cutlet1.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/chicken-teriyaki.jpg" width="150" height="150" loading="lazy" alt="Курица терияки">
+  <figcaption>
+    <b>Курица терияки</b>
+    <span class="meta">горячее · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:22nd_June_2012_Teriyaki_Duck.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/okonomiyaki.jpg" width="150" height="150" loading="lazy" alt="Окономияки">
+  <figcaption>
+    <b>Окономияки</b>
+    <span class="meta">горячее · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Okonomiyaki_001.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/yakisoba.jpg" width="150" height="150" loading="lazy" alt="Якисоба">
+  <figcaption>
+    <b>Якисоба</b>
+    <span class="meta">горячее · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Yakisoba_-_01.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/bibimbap.jpg" width="150" height="150" loading="lazy" alt="Пибимпап">
+  <figcaption>
+    <b>Пибимпап</b>
+    <span class="meta">горячее · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Dolsot-bibimbap.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/bulgogi.jpg" width="150" height="150" loading="lazy" alt="Пулькоги">
+  <figcaption>
+    <b>Пулькоги</b>
+    <span class="meta">горячее · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bulgogi_2.jpg" target="_blank" rel="noopener">CC BY-SA 2.0 kr</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/kimchi-jjigae.jpg" width="150" height="150" loading="lazy" alt="Кимчи-чигэ">
+  <figcaption>
+    <b>Кимчи-чигэ</b>
+    <span class="meta">горячее · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Korean_stew_dish_-_Kimchi-jjigae_Kimchi_Stew_2019_(01).jpg" target="_blank" rel="noopener">KOGL Type 1</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/pad-thai.jpg" width="150" height="150" loading="lazy" alt="Пад-тай">
+  <figcaption>
+    <b>Пад-тай</b>
+    <span class="meta">горячее · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Phat_Thai_kung_Chang_Khien_street_stall.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/green-curry.jpg" width="150" height="150" loading="lazy" alt="Зелёное карри">
+  <figcaption>
+    <b>Зелёное карри</b>
+    <span class="meta">горячее · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Thai_green_chicken_curry_and_roti.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/massaman-curry.jpg" width="150" height="150" loading="lazy" alt="Массаман-карри">
+  <figcaption>
+    <b>Массаман-карри</b>
+    <span class="meta">горячее · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kaeng_matsaman_kai.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/banh-xeo.jpg" width="150" height="150" loading="lazy" alt="Бань хео">
+  <figcaption>
+    <b>Бань хео</b>
+    <span class="meta">горячее · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Banh_Xeo_with_fish_sauce_and_vegetables.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/chicken-tikka-masala.jpg" width="150" height="150" loading="lazy" alt="Курица тикка масала">
+  <figcaption>
+    <b>Курица тикка масала</b>
+    <span class="meta">горячее · 500 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Chicken_tikka_masala_(cropped).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/biryani.jpg" width="150" height="150" loading="lazy" alt="Бирьяни">
+  <figcaption>
+    <b>Бирьяни</b>
+    <span class="meta">горячее · 550 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%22Hyderabadi_Dum_Biryani%22.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/dal.jpg" width="150" height="150" loading="lazy" alt="Дал">
+  <figcaption>
+    <b>Дал</b>
+    <span class="meta">горячее · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:3_types_of_lentil.png" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/palak-paneer.jpg" width="150" height="150" loading="lazy" alt="Палак панир">
+  <figcaption>
+    <b>Палак панир</b>
+    <span class="meta">горячее · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Palakpaneer_Rayagada_Odisha_0009.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/nasi-goreng.jpg" width="150" height="150" loading="lazy" alt="Наси горенг">
+  <figcaption>
+    <b>Наси горенг</b>
+    <span class="meta">горячее · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Nasi_Goreng_Kampung_(11967588375).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/rendang.jpg" width="150" height="150" loading="lazy" alt="Ренданг">
+  <figcaption>
+    <b>Ренданг</b>
+    <span class="meta">горячее · 500 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Rendang_daging_sapi_asli_Padang.JPG" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/chicken-adobo.jpg" width="150" height="150" loading="lazy" alt="Курица адобо">
+  <figcaption>
+    <b>Курица адобо</b>
+    <span class="meta">горячее · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Lomo_en_adobo-2009.jpg" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/naan.jpg" width="150" height="150" loading="lazy" alt="Наан">
+  <figcaption>
+    <b>Наан</b>
+    <span class="meta">выпечка · 260 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Annapurna_Naan.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/banh-mi.jpg" width="150" height="150" loading="lazy" alt="Бань ми">
+  <figcaption>
+    <b>Бань ми</b>
+    <span class="meta">выпечка · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:B%C3%A1nh_m%C3%AC_th%E1%BB%8Bt_n%C6%B0%E1%BB%9Bng.png" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/mooncake.jpg" width="150" height="150" loading="lazy" alt="Лунный пряник">
+  <figcaption>
+    <b>Лунный пряник</b>
+    <span class="meta">выпечка · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Mooncake_3-4,_lotus_seed_paste.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/melonpan.jpg" width="150" height="150" loading="lazy" alt="Мэлонпан">
+  <figcaption>
+    <b>Мэлонпан</b>
+    <span class="meta">выпечка · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Melonpan_on_the_plastic_bag.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/roti-canai.jpg" width="150" height="150" loading="lazy" alt="Роти-чанай">
+  <figcaption>
+    <b>Роти-чанай</b>
+    <span class="meta">выпечка · 310 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:YosriRotiCanai.jpg" target="_blank" rel="noopener">GFDL</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/bibingka.jpg" width="150" height="150" loading="lazy" alt="Бибингка">
+  <figcaption>
+    <b>Бибингка</b>
+    <span class="meta">выпечка · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:02545jfPlaza_Publika_de_Baliuag_Bulacanfvf_03.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/mochi.jpg" width="150" height="150" loading="lazy" alt="Моти">
+  <figcaption>
+    <b>Моти</b>
+    <span class="meta">десерт · 200 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Mochi_002.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/mango-sticky-rice.jpg" width="150" height="150" loading="lazy" alt="Манго с клейким рисом">
+  <figcaption>
+    <b>Манго с клейким рисом</b>
+    <span class="meta">десерт · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Mango_sticy_rice_(3859549574).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/halo-halo.jpg" width="150" height="150" loading="lazy" alt="Хало-хало">
+  <figcaption>
+    <b>Хало-хало</b>
+    <span class="meta">десерт · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Halo-Halo.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/gulab-jamun.jpg" width="150" height="150" loading="lazy" alt="Гулаб джамун">
+  <figcaption>
+    <b>Гулаб джамун</b>
+    <span class="meta">десерт · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gulab-jamun-wallpaper-1.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/kulfi.jpg" width="150" height="150" loading="lazy" alt="Кульфи">
+  <figcaption>
+    <b>Кульфи</b>
+    <span class="meta">десерт · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Matka_kulfi.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/bingsu.jpg" width="150" height="150" loading="lazy" alt="Бинсу">
+  <figcaption>
+    <b>Бинсу</b>
+    <span class="meta">десерт · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Patbingsu.jpg" target="_blank" rel="noopener">CC BY-SA 2.0 kr</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/masala-chai.jpg" width="150" height="150" loading="lazy" alt="Масала-чай">
+  <figcaption>
+    <b>Масала-чай</b>
+    <span class="meta">напиток · 90 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Chai_In_Sakora.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/bubble-tea.jpg" width="150" height="150" loading="lazy" alt="Бубль-ти">
+  <figcaption>
+    <b>Бубль-ти</b>
+    <span class="meta">напиток · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bubble_Tea.png" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/asian/lassi.jpg" width="150" height="150" loading="lazy" alt="Ласси">
+  <figcaption>
+    <b>Ласси</b>
+    <span class="meta">напиток · 150 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Salt_lassi.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+  </div>
+</section>
+<section>
+  <h2>Кавказская кухня <span class="count">69 блюд</span></h2>
+  <div class="grid">
+<figure class="card">
+  <img src="images/caucasian/khash.jpg" width="150" height="150" loading="lazy" alt="Хаш">
+  <figcaption>
+    <b>Хаш</b>
+    <span class="meta">суп · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Khash_(dish).jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/kharcho.jpg" width="150" height="150" loading="lazy" alt="Харчо">
+  <figcaption>
+    <b>Харчо</b>
+    <span class="meta">суп · 310 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kharcho_soup_of_beef_with_walnuts_and_rice,_Georgian_cuisine_(2).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/chikhirtma.jpg" width="150" height="150" loading="lazy" alt="Чихиртма">
+  <figcaption>
+    <b>Чихиртма</b>
+    <span class="meta">суп · 240 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Chikhirtma.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/bozbash.jpg" width="150" height="150" loading="lazy" alt="Бозбаш">
+  <figcaption>
+    <b>Бозбаш</b>
+    <span class="meta">суп · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tik%C9%99_(chunky_meat)_Bozbash.png" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/piti.jpg" width="150" height="150" loading="lazy" alt="Пити">
+  <figcaption>
+    <b>Пити</b>
+    <span class="meta">суп · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Piti_24.11.2013-01.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/dovga.jpg" width="150" height="150" loading="lazy" alt="Довга">
+  <figcaption>
+    <b>Довга</b>
+    <span class="meta">суп · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Dovga_e-citizen.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/spas.jpg" width="150" height="150" loading="lazy" alt="Спас">
+  <figcaption>
+    <b>Спас</b>
+    <span class="meta">суп · 190 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Spa_interiors_-_1.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/dushbara.jpg" width="150" height="150" loading="lazy" alt="Дюшбара">
+  <figcaption>
+    <b>Дюшбара</b>
+    <span class="meta">суп · 290 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:D%C3%BC%C5%9Fb%C9%99r%C9%99_yar%C4%B1mfabrikat%C4%B1_1.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/tbilisuri.jpg" width="150" height="150" loading="lazy" alt="Тбилисури">
+  <figcaption>
+    <b>Тбилисури</b>
+    <span class="meta">салат · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tbilisuri.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/choban-salad.jpg" width="150" height="150" loading="lazy" alt="Чобан-салат">
+  <figcaption>
+    <b>Чобан-салат</b>
+    <span class="meta">салат · 90 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bira_ve_%C3%A7oban_salata.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/eggplant-salad.jpg" width="150" height="150" loading="lazy" alt="Салат из баклажанов с орехами">
+  <figcaption>
+    <b>Салат из баклажанов с орехами</b>
+    <span class="meta">салат · 210 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Baba_ganoush_closeup.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/bean-salad.jpg" width="150" height="150" loading="lazy" alt="Салат из красной фасоли">
+  <figcaption>
+    <b>Салат из красной фасоли</b>
+    <span class="meta">салат · 230 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Red_Quinoa_Bean_Salad_(37673753941).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/cucumber-matsoni.jpg" width="150" height="150" loading="lazy" alt="Салат из огурцов с мацони">
+  <figcaption>
+    <b>Салат из огурцов с мацони</b>
+    <span class="meta">салат · 110 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tzatziki_meze_or_appetizer,_also_used_as_a_sauce.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/pkhali.jpg" width="150" height="150" loading="lazy" alt="Пхали">
+  <figcaption>
+    <b>Пхали</b>
+    <span class="meta">закуска · 180 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pkhali,_Badrijani_and_Ajika.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/lobio.jpg" width="150" height="150" loading="lazy" alt="Лобио">
+  <figcaption>
+    <b>Лобио</b>
+    <span class="meta">закуска · 210 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Lobio_with_summer_savory_and_ajika.jpg" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/satsivi.jpg" width="150" height="150" loading="lazy" alt="Сациви">
+  <figcaption>
+    <b>Сациви</b>
+    <span class="meta">закуска · 330 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Satsivi_(2).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/badrijani.jpg" width="150" height="150" loading="lazy" alt="Бадриджани">
+  <figcaption>
+    <b>Бадриджани</b>
+    <span class="meta">закуска · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Nigvziani_badrijani_in_Vilnius.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/dolma.jpg" width="150" height="150" loading="lazy" alt="Долма">
+  <figcaption>
+    <b>Долма</b>
+    <span class="meta">закуска · 290 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Speca_te_mbushura_me_mish.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/sujuk.jpg" width="150" height="150" loading="lazy" alt="Суджук">
+  <figcaption>
+    <b>Суджук</b>
+    <span class="meta">закуска · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sucuk-1.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/basturma.jpg" width="150" height="150" loading="lazy" alt="Бастурма">
+  <figcaption>
+    <b>Бастурма</b>
+    <span class="meta">закуска · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Basturma_or_Pastroma_from_Armenia_2.JPG" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/motal.jpg" width="150" height="150" loading="lazy" alt="Мотал">
+  <figcaption>
+    <b>Мотал</b>
+    <span class="meta">закуска · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:At_the_Bazaar_in_Azerbaijan_-_motal_cheese.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/chechil.jpg" width="150" height="150" loading="lazy" alt="Чечил">
+  <figcaption>
+    <b>Чечил</b>
+    <span class="meta">закуска · 290 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D5%89%D5%A5%D5%B9%D5%AB%D5%AC_%D5%BA%D5%A1%D5%B6%D5%AB%D6%80_3.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/suluguni.jpg" width="150" height="150" loading="lazy" alt="Сулугуни">
+  <figcaption>
+    <b>Сулугуни</b>
+    <span class="meta">закуска · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sulguni_slice.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/adyghe-cheese.jpg" width="150" height="150" loading="lazy" alt="Адыгейский сыр">
+  <figcaption>
+    <b>Адыгейский сыр</b>
+    <span class="meta">закуска · 260 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D0%90%D0%B4%D1%8B%D0%B3%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B9_%D1%81%D1%8B%D1%80_(%D0%9C%D0%B0%D1%82%D1%8D%D0%BA%D1%8A%D1%83%D0%B0%D0%B5).jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/kutaby-greens.jpg" width="150" height="150" loading="lazy" alt="Кутабы с зеленью">
+  <figcaption>
+    <b>Кутабы с зеленью</b>
+    <span class="meta">закуска · 240 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:K%C3%BCk%C3%BC-Gutab_Azerbaijani.gif" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/eggplant-dolma.jpg" width="150" height="150" loading="lazy" alt="Долма из баклажанов">
+  <figcaption>
+    <b>Долма из баклажанов</b>
+    <span class="meta">закуска · 310 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kuru_dolma_yap%C4%B1l%C4%B1%C5%9F%C4%B1_2.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/jajik.jpg" width="150" height="150" loading="lazy" alt="Джаджик">
+  <figcaption>
+    <b>Джаджик</b>
+    <span class="meta">закуска · 120 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Tzatiki_(3656301454).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/khinkali.jpg" width="150" height="150" loading="lazy" alt="Хинкали">
+  <figcaption>
+    <b>Хинкали</b>
+    <span class="meta">горячее · 330 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Khinkali,_Restaurant_Aragvi.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/chakhokhbili.jpg" width="150" height="150" loading="lazy" alt="Чахохбили">
+  <figcaption>
+    <b>Чахохбили</b>
+    <span class="meta">горячее · 340 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D0%A7%D0%B0%D1%85%D0%BE%D1%85%D0%B1%D0%B8%D0%BB%D0%B8.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/chashushuli.jpg" width="150" height="150" loading="lazy" alt="Чашушули">
+  <figcaption>
+    <b>Чашушули</b>
+    <span class="meta">горячее · 390 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Chashushuli_at_restaurant_Rioni.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/mtsvadi.jpg" width="150" height="150" loading="lazy" alt="Мцвади">
+  <figcaption>
+    <b>Мцвади</b>
+    <span class="meta">горячее · 430 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Shashlik.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/ojakhuri.jpg" width="150" height="150" loading="lazy" alt="Оджахури">
+  <figcaption>
+    <b>Оджахури</b>
+    <span class="meta">горячее · 470 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Odjakhuri_-_Georgian_(Kartvelian)_dish_with_meat._Served_in_Galaktioni_restaurant_Istanbul.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/shkmeruli.jpg" width="150" height="150" loading="lazy" alt="Шкмерули">
+  <figcaption>
+    <b>Шкмерули</b>
+    <span class="meta">горячее · 410 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Georgian_cuisine_(33309210248).jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/chakapuli.jpg" width="150" height="150" loading="lazy" alt="Чакапули">
+  <figcaption>
+    <b>Чакапули</b>
+    <span class="meta">горячее · 360 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:PXL_20260504_183036483.MP.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/kupati.jpg" width="150" height="150" loading="lazy" alt="Купаты">
+  <figcaption>
+    <b>Купаты</b>
+    <span class="meta">горячее · 440 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:05_Kupaty_Sausage_plate_-_Tatiana.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/ajapsandali.jpg" width="150" height="150" loading="lazy" alt="Аджапсандали">
+  <figcaption>
+    <b>Аджапсандали</b>
+    <span class="meta">горячее · 190 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ajapsandali_-_Georgian_eggplant_stew.jpg" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/chicken-tabaka.jpg" width="150" height="150" loading="lazy" alt="Цыплёнок табака">
+  <figcaption>
+    <b>Цыплёнок табака</b>
+    <span class="meta">горячее · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D0%A6%D1%8B%D0%BF%D0%BB%D0%B5%D0%BD%D0%BE%D0%BA_%D1%82%D0%B0%D0%B1%D0%B0%D0%BA%D0%B0.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/elarji.jpg" width="150" height="150" loading="lazy" alt="Эларджи">
+  <figcaption>
+    <b>Эларджи</b>
+    <span class="meta">горячее · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Elarji_in_Acha-Chacha_restaurant.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/ishhan.jpg" width="150" height="150" loading="lazy" alt="Ишхан">
+  <figcaption>
+    <b>Ишхан</b>
+    <span class="meta">горячее · 260 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ishkhan_Monastery_03.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/kyufta.jpg" width="150" height="150" loading="lazy" alt="Кюфта">
+  <figcaption>
+    <b>Кюфта</b>
+    <span class="meta">горячее · 360 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Koofteh_tabrizi.jpg" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/khashlama.jpg" width="150" height="150" loading="lazy" alt="Хашлама">
+  <figcaption>
+    <b>Хашлама</b>
+    <span class="meta">горячее · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ha%C5%9Flama.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/pilaf.jpg" width="150" height="150" loading="lazy" alt="Плов">
+  <figcaption>
+    <b>Плов</b>
+    <span class="meta">горячее · 520 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Afghan_Palo.jpg" target="_blank" rel="noopener">CC BY-SA 1.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/lyulya-kebab.jpg" width="150" height="150" loading="lazy" alt="Люля-кебаб">
+  <figcaption>
+    <b>Люля-кебаб</b>
+    <span class="meta">горячее · 390 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Azerbaijani_lyulya_kebab.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/tava-kebab.jpg" width="150" height="150" loading="lazy" alt="Тава-кебаб">
+  <figcaption>
+    <b>Тава-кебаб</b>
+    <span class="meta">горячее · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kabab_tabei.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/saj.jpg" width="150" height="150" loading="lazy" alt="Садж">
+  <figcaption>
+    <b>Садж</b>
+    <span class="meta">горячее · 480 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Saj_Maquillage_2016_Rami_Tareef.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/dagestani-khinkal.jpg" width="150" height="150" loading="lazy" alt="Дагестанский хинкал">
+  <figcaption>
+    <b>Дагестанский хинкал</b>
+    <span class="meta">горячее · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Wiki-seminar_in_Derbent_2017_07.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/kurze.jpg" width="150" height="150" loading="lazy" alt="Курзе">
+  <figcaption>
+    <b>Курзе</b>
+    <span class="meta">горячее · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D0%9A%D1%83%D0%BC%D1%8B%D0%BA%D1%81%D0%BA%D0%BE%D0%B5_%D0%BA%D1%83%D1%80%D0%B7%D0%B5_%D1%81_%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%BA%D0%BE%D0%B9.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/guaps.jpg" width="150" height="150" loading="lazy" alt="Гуапс">
+  <figcaption>
+    <b>Гуапс</b>
+    <span class="meta">горячее · 370 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:FRUCT_SPb_GUAP_2008.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/bots.jpg" width="150" height="150" loading="lazy" alt="Боц">
+  <figcaption>
+    <b>Боц</b>
+    <span class="meta">горячее · 310 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gem%C3%A4lde_vom_Prof._Bohtz.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/khachapuri-imeruli.jpg" width="150" height="150" loading="lazy" alt="Хачапури по-имеретински">
+  <figcaption>
+    <b>Хачапури по-имеретински</b>
+    <span class="meta">выпечка · 430 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Satsivi_and_Khachapuri_(3).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/khachapuri-adjarian.jpg" width="150" height="150" loading="lazy" alt="Хачапури по-аджарски">
+  <figcaption>
+    <b>Хачапури по-аджарски</b>
+    <span class="meta">выпечка · 480 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Adjarian_Khachapuri_(4).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/khachapuri-megruli.jpg" width="150" height="150" loading="lazy" alt="Хачапури по-мегрельски">
+  <figcaption>
+    <b>Хачапури по-мегрельски</b>
+    <span class="meta">выпечка · 500 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Khachapuri-round.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/ossetian-pie.jpg" width="150" height="150" loading="lazy" alt="Осетинский пирог с сыром">
+  <figcaption>
+    <b>Осетинский пирог с сыром</b>
+    <span class="meta">выпечка · 390 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ossetian_pirogi_are_put_in_the_center_of_festive_table.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/lavash.jpg" width="150" height="150" loading="lazy" alt="Лаваш">
+  <figcaption>
+    <b>Лаваш</b>
+    <span class="meta">выпечка · 240 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pan_armenio_en_el_mercado_de_Yerevan.JPG" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/gata.jpg" width="150" height="150" loading="lazy" alt="Гата">
+  <figcaption>
+    <b>Гата</b>
+    <span class="meta">выпечка · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Calle_de_la_Villa_de_Gata_en_C%C3%A1ceres.jpg" target="_blank" rel="noopener">CC BY-SA 3.0 es</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/kutab.jpg" width="150" height="150" loading="lazy" alt="Кутабы">
+  <figcaption>
+    <b>Кутабы</b>
+    <span class="meta">выпечка · 360 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Azerbaijani_national_dish_Qutab_with_herbs.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/chudu.jpg" width="150" height="150" loading="lazy" alt="Чуду">
+  <figcaption>
+    <b>Чуду</b>
+    <span class="meta">выпечка · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Wiki-seminar_in_Derbent_2017_06_cropped.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/cheburek.jpg" width="150" height="150" loading="lazy" alt="Чебурек">
+  <figcaption>
+    <b>Чебурек</b>
+    <span class="meta">выпечка · 410 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Ayran%2B%C3%87ib%C3%B6rek.jpg" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/lobiani.jpg" width="150" height="150" loading="lazy" alt="Лобиани">
+  <figcaption>
+    <b>Лобиани</b>
+    <span class="meta">выпечка · 340 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Lobiani,_Restaurant_Aragvi.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/churchkhela.jpg" width="150" height="150" loading="lazy" alt="Чурчхела">
+  <figcaption>
+    <b>Чурчхела</b>
+    <span class="meta">десерт · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Kakheti,_Georgia_%E2%80%94_Churchkhela.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/gozinaki.jpg" width="150" height="150" loading="lazy" alt="Гозинаки">
+  <figcaption>
+    <b>Гозинаки</b>
+    <span class="meta">десерт · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gozinaki_with_walnuts.jpg" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/pakhlava.jpg" width="150" height="150" loading="lazy" alt="Пахлава">
+  <figcaption>
+    <b>Пахлава</b>
+    <span class="meta">десерт · 470 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Baklava(1).png" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/shekerbura.jpg" width="150" height="150" loading="lazy" alt="Шекербура">
+  <figcaption>
+    <b>Шекербура</b>
+    <span class="meta">десерт · 440 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%C5%9E%C9%99k%C9%99rbura_Novruz_%C5%9Firniyyat%C4%B1.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/shakarchurek.jpg" width="150" height="150" loading="lazy" alt="Шакер-чурек">
+  <figcaption>
+    <b>Шакер-чурек</b>
+    <span class="meta">десерт · 410 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Portakal_-_tahin.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/murabba.jpg" width="150" height="150" loading="lazy" alt="Мурабба">
+  <figcaption>
+    <b>Мурабба</b>
+    <span class="meta">десерт · 320 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Shaftali_murebbesi_hazir_e-citizen.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/tarhun.jpg" width="150" height="150" loading="lazy" alt="Тархун">
+  <figcaption>
+    <b>Тархун</b>
+    <span class="meta">напиток · 45 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:TarkhunSogdianCoin.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/ayran.jpg" width="150" height="150" loading="lazy" alt="Айран">
+  <figcaption>
+    <b>Айран</b>
+    <span class="meta">напиток · 60 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Fresh_ayran.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/matzoon.jpg" width="150" height="150" loading="lazy" alt="Мацони">
+  <figcaption>
+    <b>Мацони</b>
+    <span class="meta">напиток · 70 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:%D5%87%D5%A1%D5%AC%D5%B8%D5%BF%D5%B8%D5%BE_%D5%B4%D5%A1%D5%AE%D5%B8%D6%82%D5%B6_%D5%B6%D5%A1%D5%B6%D5%A1%D5%B5%D5%B8%D5%BE.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/caucasian/sherbet.jpg" width="150" height="150" loading="lazy" alt="Шербет">
+  <figcaption>
+    <b>Шербет</b>
+    <span class="meta">напиток · 90 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Jars_of_Kali_or_Sherbet_powder.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+  </div>
+</section>
+<section>
+  <h2>Американская кухня <span class="count">45 блюд</span></h2>
+  <div class="grid">
+<figure class="card">
+  <img src="images/american/clam-chowder.jpg" width="150" height="150" loading="lazy" alt="Клам-чаудер">
+  <figcaption>
+    <b>Клам-чаудер</b>
+    <span class="meta">суп · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Quail_07_bg_041506.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/lobster-bisque.jpg" width="150" height="150" loading="lazy" alt="Лобстер-бис">
+  <figcaption>
+    <b>Лобстер-бис</b>
+    <span class="meta">суп · 420 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Lobster_bisque.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/gumbo.jpg" width="150" height="150" loading="lazy" alt="Гамбо">
+  <figcaption>
+    <b>Гамбо</b>
+    <span class="meta">суп · 540 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Gumbo.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/chili-con-carne.jpg" width="150" height="150" loading="lazy" alt="Чили кон карне">
+  <figcaption>
+    <b>Чили кон карне</b>
+    <span class="meta">суп · 460 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bowl_of_chili.jpg" target="_blank" rel="noopener">CC BY-SA 2.5</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/cobb-salad.jpg" width="150" height="150" loading="lazy" alt="Салат «Кобб»">
+  <figcaption>
+    <b>Салат «Кобб»</b>
+    <span class="meta">салат · 520 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Cobb_salad,_15_October_2010.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/wedge-salad.jpg" width="150" height="150" loading="lazy" alt="Салат «Уэдж»">
+  <figcaption>
+    <b>Салат «Уэдж»</b>
+    <span class="meta">салат · 330 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Salad_platter.jpg" target="_blank" rel="noopener">GFDL 1.2</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/waldorf-salad.jpg" width="150" height="150" loading="lazy" alt="Салат «Уолдорф»">
+  <figcaption>
+    <b>Салат «Уолдорф»</b>
+    <span class="meta">салат · 300 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Waldorfsalat.jpg" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/coleslaw.jpg" width="150" height="150" loading="lazy" alt="Коулслоу">
+  <figcaption>
+    <b>Коулслоу</b>
+    <span class="meta">салат · 150 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:2015-12-20_Spitzkohlsalat_mit_M%C3%B6hren_anagoria.JPG" target="_blank" rel="noopener">CC BY 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/potato-salad.jpg" width="150" height="150" loading="lazy" alt="Картофельный салат">
+  <figcaption>
+    <b>Картофельный салат</b>
+    <span class="meta">салат · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Potato_salad_(1).jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/buffalo-wings.jpg" width="150" height="150" loading="lazy" alt="Куриные крылья баффало">
+  <figcaption>
+    <b>Куриные крылья баффало</b>
+    <span class="meta">закуска · 480 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Buffalo_wings-01.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/mozzarella-sticks.jpg" width="150" height="150" loading="lazy" alt="Сырные палочки">
+  <figcaption>
+    <b>Сырные палочки</b>
+    <span class="meta">закуска · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Fried_Mozzarella_Sticks_at_Millers_Pub_(301456962).jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/onion-rings.jpg" width="150" height="150" loading="lazy" alt="Луковые кольца">
+  <figcaption>
+    <b>Луковые кольца</b>
+    <span class="meta">закуска · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:OnionRings.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/nachos.jpg" width="150" height="150" loading="lazy" alt="Начос">
+  <figcaption>
+    <b>Начос</b>
+    <span class="meta">закуска · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Nachos-cheese.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/deviled-eggs.jpg" width="150" height="150" loading="lazy" alt="Фаршированные яйца">
+  <figcaption>
+    <b>Фаршированные яйца</b>
+    <span class="meta">закуска · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:0.2014_Ostereier_zum_Fr%C3%BChst%C3%BCck,_Beskiden,_Nowotaniec.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/hushpuppies.jpg" width="150" height="150" loading="lazy" alt="Хушпаппи">
+  <figcaption>
+    <b>Хушпаппи</b>
+    <span class="meta">закуска · 330 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Hushpuppies_5stack.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/cheeseburger.jpg" width="150" height="150" loading="lazy" alt="Чизбургер">
+  <figcaption>
+    <b>Чизбургер</b>
+    <span class="meta">горячее · 550 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Cheeseburger.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/hamburger.jpg" width="150" height="150" loading="lazy" alt="Гамбургер">
+  <figcaption>
+    <b>Гамбургер</b>
+    <span class="meta">горячее · 500 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:RedDot_Burger.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/hot-dog.jpg" width="150" height="150" loading="lazy" alt="Хот-дог">
+  <figcaption>
+    <b>Хот-дог</b>
+    <span class="meta">горячее · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Hot_dog_with_mustard.png" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/corn-dog.jpg" width="150" height="150" loading="lazy" alt="Кукурузный хот-дог">
+  <figcaption>
+    <b>Кукурузный хот-дог</b>
+    <span class="meta">горячее · 380 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:CornDog.jpg" target="_blank" rel="noopener">GFDL 1.2</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/fried-chicken.jpg" width="150" height="150" loading="lazy" alt="Жареная курица">
+  <figcaption>
+    <b>Жареная курица</b>
+    <span class="meta">горячее · 600 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Fried-Chicken-Set.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/mac-and-cheese.jpg" width="150" height="150" loading="lazy" alt="Мак-энд-чиз">
+  <figcaption>
+    <b>Мак-энд-чиз</b>
+    <span class="meta">горячее · 550 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Original_Mac_n_Cheese_.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/barbecue-ribs.jpg" width="150" height="150" loading="lazy" alt="Свиные рёбрышки барбекю">
+  <figcaption>
+    <b>Свиные рёбрышки барбекю</b>
+    <span class="meta">горячее · 700 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Cote_de_boeuf_p1040932.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/pulled-pork.jpg" width="150" height="150" loading="lazy" alt="Пуллед-порк">
+  <figcaption>
+    <b>Пуллед-порк</b>
+    <span class="meta">горячее · 550 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pulled_pork_while_pulling.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/meatloaf.jpg" width="150" height="150" loading="lazy" alt="Мясной рулет">
+  <figcaption>
+    <b>Мясной рулет</b>
+    <span class="meta">горячее · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:MeatloafWithSauce.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/sloppy-joe.jpg" width="150" height="150" loading="lazy" alt="Слоппи-джо">
+  <figcaption>
+    <b>Слоппи-джо</b>
+    <span class="meta">горячее · 480 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sloppy_Joe_%22homemade%22.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/philly-cheesesteak.jpg" width="150" height="150" loading="lazy" alt="Филадельфийский чизстейк">
+  <figcaption>
+    <b>Филадельфийский чизстейк</b>
+    <span class="meta">горячее · 650 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:PatsCheesesteak.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/lobster-roll.jpg" width="150" height="150" loading="lazy" alt="Лобстер-ролл">
+  <figcaption>
+    <b>Лобстер-ролл</b>
+    <span class="meta">горячее · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Lobster_Roll.png" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/club-sandwich.jpg" width="150" height="150" loading="lazy" alt="Клубный сэндвич">
+  <figcaption>
+    <b>Клубный сэндвич</b>
+    <span class="meta">горячее · 600 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Club_sandwich_at_Caf%C3%A9_Picnic.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/reuben-sandwich.jpg" width="150" height="150" loading="lazy" alt="Сэндвич «Рубен»">
+  <figcaption>
+    <b>Сэндвич «Рубен»</b>
+    <span class="meta">горячее · 650 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Katz%27s_Deli_-_Lunch.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/chicken-pot-pie.jpg" width="150" height="150" loading="lazy" alt="Куриный пирог">
+  <figcaption>
+    <b>Куриный пирог</b>
+    <span class="meta">горячее · 550 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:ChickenpotpieswholeFeb09.jpg" target="_blank" rel="noopener">CC BY-SA 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/jambalaya.jpg" width="150" height="150" loading="lazy" alt="Джамбалайя">
+  <figcaption>
+    <b>Джамбалайя</b>
+    <span class="meta">горячее · 520 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Homemade_Jambalaya.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/biscuits-and-gravy.jpg" width="150" height="150" loading="lazy" alt="Бисквиты с подливой">
+  <figcaption>
+    <b>Бисквиты с подливой</b>
+    <span class="meta">горячее · 600 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Biscuits-and-gravy.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/cornbread.jpg" width="150" height="150" loading="lazy" alt="Кукурузный хлеб">
+  <figcaption>
+    <b>Кукурузный хлеб</b>
+    <span class="meta">выпечка · 280 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Skillet_cornbread_(cropped).jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/buttermilk-biscuit.jpg" width="150" height="150" loading="lazy" alt="Американские бисквиты">
+  <figcaption>
+    <b>Американские бисквиты</b>
+    <span class="meta">выпечка · 220 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Loveless_Cafe_Biscuits.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/bagel.jpg" width="150" height="150" loading="lazy" alt="Бейгл">
+  <figcaption>
+    <b>Бейгл</b>
+    <span class="meta">выпечка · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Bagel_with_sesame_3.jpg" target="_blank" rel="noopener">CC BY 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/doughnut.jpg" width="150" height="150" loading="lazy" alt="Пончик">
+  <figcaption>
+    <b>Пончик</b>
+    <span class="meta">выпечка · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Glazed-Donut.jpg" target="_blank" rel="noopener">Public domain</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/sourdough-bread.jpg" width="150" height="150" loading="lazy" alt="Хлеб на закваске">
+  <figcaption>
+    <b>Хлеб на закваске</b>
+    <span class="meta">выпечка · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Sourdough_bread_loaf.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/brownie.jpg" width="150" height="150" loading="lazy" alt="Брауни">
+  <figcaption>
+    <b>Брауни</b>
+    <span class="meta">десерт · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Chocolatebrownie.JPG" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/chocolate-chip-cookie.jpg" width="150" height="150" loading="lazy" alt="Шоколадное печенье">
+  <figcaption>
+    <b>Шоколадное печенье</b>
+    <span class="meta">десерт · 200 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Choco_chip_cookie.png" target="_blank" rel="noopener">CC BY 2.5</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/apple-pie.jpg" width="150" height="150" loading="lazy" alt="Яблочный пирог">
+  <figcaption>
+    <b>Яблочный пирог</b>
+    <span class="meta">десерт · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Apple_pie_14.jpg" target="_blank" rel="noopener">CC BY 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/pecan-pie.jpg" width="150" height="150" loading="lazy" alt="Пекановый пирог">
+  <figcaption>
+    <b>Пекановый пирог</b>
+    <span class="meta">десерт · 500 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:My_first_pecan_pie!.jpg" target="_blank" rel="noopener">CC BY 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/cheesecake.jpg" width="150" height="150" loading="lazy" alt="Чизкейк">
+  <figcaption>
+    <b>Чизкейк</b>
+    <span class="meta">десерт · 450 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Baked_cheesecake_with_raspberries_and_blueberries.jpg" target="_blank" rel="noopener">CC BY 2.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/key-lime-pie.jpg" width="150" height="150" loading="lazy" alt="Лаймовый пирог">
+  <figcaption>
+    <b>Лаймовый пирог</b>
+    <span class="meta">десерт · 400 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Slice_of_Key_Lime_Pie.jpg" target="_blank" rel="noopener">CC BY-SA 4.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/pumpkin-pie.jpg" width="150" height="150" loading="lazy" alt="Тыквенный пирог">
+  <figcaption>
+    <b>Тыквенный пирог</b>
+    <span class="meta">десерт · 350 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Pumpkin-Pie-Whole-Slice.jpg" target="_blank" rel="noopener">CC BY-SA 3.0</a>
+  </figcaption>
+</figure>
+<figure class="card">
+  <img src="images/american/smore.jpg" width="150" height="150" loading="lazy" alt="Сморс">
+  <figcaption>
+    <b>Сморс</b>
+    <span class="meta">десерт · 250 ккал</span>
+    <a class="src" href="https://commons.wikimedia.org/wiki/File:Smores-Microwave.jpg" target="_blank" rel="noopener">CC0</a>
+  </figcaption>
+</figure>
+  </div>
+</section>
+</body>
+</html>
